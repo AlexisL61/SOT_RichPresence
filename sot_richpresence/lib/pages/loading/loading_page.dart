@@ -29,7 +29,7 @@ class _LoadingPageState extends State<LoadingPage> {
     return NavigationView(
       content: SotBackground(
           child: Center(
-        child: Text("Loading..."),
+        child: Text("Loading...", style: TextStyle(color: Colors.white)),
       )),
     );
   }

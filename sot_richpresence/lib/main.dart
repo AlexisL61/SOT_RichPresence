@@ -41,7 +41,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return FluentApp(
       title: 'Sea of thieves RPC',
-      theme: FluentThemeData(
+      themeMode: ThemeMode.dark,
+      darkTheme: FluentThemeData(
         fontFamily: 'Windlass',
       ),
       initialRoute: '/',
