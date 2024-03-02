@@ -1,5 +1,6 @@
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter/material.dart';
+import 'package:sot_richpresence/pages/home/home_page.dart';
 import 'package:sot_richpresence/pages/loading/loading_page.dart';
 
 import 'package:flutter/material.dart';
@@ -46,6 +47,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => LoadingPage(),
+        '/home':(context) => HomePage()
       },
     );
   }

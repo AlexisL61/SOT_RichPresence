@@ -3,6 +3,7 @@
         "id":"gold_hoarder",
         "name":"_gold_hoarder",
         "image": "https://static.wikia.nocookie.net/seaofthieves_gamepedia/images/f/f1/Gold_Hoarders_icon.png/revision/latest?cb=20200512034953",
+        "background_image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/gold-hoarders.svg",
         "activities": [
 
         ]
