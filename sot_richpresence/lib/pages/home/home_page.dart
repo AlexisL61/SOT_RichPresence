@@ -1,10 +1,6 @@
 import 'package:fluent_ui/fluent_ui.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:sot_richpresence/components/background/background.dart';
-import 'package:sot_richpresence/components/buttons/ship_button.dart';
-import 'package:sot_richpresence/components/buttons/squared_button.dart';
-import 'package:sot_richpresence/components/clippers/squared_button_clipper.dart';
-import 'package:sot_richpresence/components/panels/name_panel.dart';
+import 'package:sot_richpresence/components/panels/large_panel.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -20,30 +16,31 @@ class _HomePageState extends State<HomePage> {
       content: SotBackground(
           child: Center(
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: ShipButton(
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Stack(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.only(top: 100),
-                        child: SvgPicture.asset(
-                          'assets/icons/sloop.svg',
-                          width: 300,
-                          colorFilter: ColorFilter.mode(Colors.white, BlendMode.srcIn),
-                        ),
-                      ),
-                      NamePanel(text: "The Voyager"),
-                    ],
-                  ),
-                ),
-                onPressed: () {
-                  print("Ship button pressed");
-                },
-              ),
+              padding: EdgeInsets.all(8.0),
+              child: LargePanel(
+                  image: AssetImage("assets/png/choose-ship.jpg"),
+                  child: SizedBox(height: 200, width: 400),
+                  title: "Navire",
+                  description: "Aucun bateau sélectionné",
+                  actionText: "Sélectionner un bateau",
+                  action: () {
+                    Navigator.pushNamed(context, "/choose_ship");
+                  }),
+            ),
+            Padding(
+              padding: EdgeInsets.all(8.0),
+              child: LargePanel(
+                  image: AssetImage("assets/png/choose-activity.jpg"),
+                  child: SizedBox(height: 200, width: 400),
+                  title: "Activité",
+                  description: "Aucune activité sélectionnée",
+                  actionText: "Sélectionner une activité",
+                  action: () {
+                    print("Activity button pressed");
+                  }),
             ),
           ],
         ),

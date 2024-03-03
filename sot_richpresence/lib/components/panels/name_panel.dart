@@ -25,10 +25,10 @@ class _NamePanelState extends State<NamePanel> {
         ),
       ),
       Padding(
-          padding: EdgeInsets.all(24),
+          padding: EdgeInsets.symmetric(horizontal:15, vertical: 20),
           child: Text(
             widget.text,
-            style: TextStyle(fontSize: 20, color: Colors.white),
+            style: TextStyle(fontSize: 16, color: Colors.white),
             textAlign: TextAlign.center,
           )),
     ]);
