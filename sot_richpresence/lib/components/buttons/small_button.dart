@@ -18,33 +18,32 @@ class _SmallButtonState extends State<SmallButton> {
   @override
   Widget build(BuildContext context) {
     return MouseRegion(
-        onEnter: (event) {
-          isHovering = true;
-          setState(() {});
-        },
-        onExit: (event) {
-          isHovering = false;
-          setState(() {});
-        },
-        child: IntrinsicHeight(
-            child: IntrinsicWidth(
-          child: Stack(fit: StackFit.expand, children: [
-            SvgPicture.asset(
-                isHovering
-                    ? 'assets/svg/buttons/green-button-sprite-hover.svg'
-                    : 'assets/svg/buttons/green-button-sprite-off.svg',
-                allowDrawingOutsideViewBox: true,
-                fit: BoxFit.fill,
-                clipBehavior: Clip.hardEdge),
-            Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: Text(
-                  widget.text,
-                  style: TextStyle(color: Colors.white),
-                  textAlign: TextAlign.center,
-                ),
-              ),
-          ]),
-        )));
+      onEnter: (event) {
+        isHovering = true;
+        setState(() {});
+      },
+      onExit: (event) {
+        isHovering = false;
+        setState(() {});
+      },
+      child: Stack(children: [
+        SvgPicture.asset(
+            isHovering
+                ? 'assets/svg/buttons/green-button-sprite-hover.svg'
+                : 'assets/svg/buttons/green-button-sprite-off.svg',
+            allowDrawingOutsideViewBox: true,
+            fit: BoxFit.fill,
+            clipBehavior: Clip.hardEdge),
+        Positioned.fill(
+            child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Text(
+            widget.text,
+            style: TextStyle(color: Colors.white),
+            textAlign: TextAlign.center,
+          ),
+        )),
+      ]),
+    );
   }
 }
