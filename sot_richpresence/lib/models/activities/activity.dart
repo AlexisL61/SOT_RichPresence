@@ -23,5 +23,7 @@ class Activity {
     );
   }
 
-  static fromJsonList(json) {}
+  static List<Activity> fromJsonList(List<dynamic> json) {
+    return json.map((e) => Activity.fromJson(e)).toList();
+  }
 }

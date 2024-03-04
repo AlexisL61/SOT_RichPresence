@@ -12,7 +12,9 @@
                     {
                         "id":"a_pirates_treasure_map",
                         "name":"_a_pirates_treasure_map",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Treasure_Map.png"
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Treasure_Map.png",
+                        "length":1,
+                        "description":"_a_pirates_treasure_map_description"
                     }
                 ]
             }
