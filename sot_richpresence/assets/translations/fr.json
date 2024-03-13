@@ -1,0 +1,21 @@
+{
+    "_ship":"Navire",
+    "_no_ship_selected":"Aucun bateau sélectionné",
+    "_ship_select_button":"Sélectionner un bateau",
+
+    "_activity":"Activité",
+    "_no_activity_selected":"Aucune activité sélectionnée",
+    "_activity_select_button":"Sélectionner une activité",
+
+
+    "_choose_your_ship":"Choisissez votre navire",
+    "_sloop_name":"Sloop",
+    "_brigantine_name":"Brigantine",
+    "_galleon_name":"Galion",
+    "_choose_player_number": "Choisissez le nombre de joueurs",
+    "_number_of_players": {
+        "one": "{} joueur",
+        "many": "{} joueurs",
+        "other": "{} joueurs"
+    }
+}

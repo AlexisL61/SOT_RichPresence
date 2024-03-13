@@ -8,7 +8,7 @@ class AvailableTranslation {
 
   factory AvailableTranslation.fromJson(Map<String, dynamic> json) {
     return AvailableTranslation(
-      language: json['language'],
+      language: json['id'],
       name: json['name'],
     );
   }

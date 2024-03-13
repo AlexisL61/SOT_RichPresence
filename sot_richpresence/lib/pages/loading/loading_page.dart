@@ -1,10 +1,5 @@
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:sot_richpresence/components/background/background.dart';
-import 'package:sot_richpresence/components/buttons/small_button.dart';
-import 'package:sot_richpresence/components/buttons/squared_button.dart';
-import 'package:sot_richpresence/components/clippers/squared_button_clipper.dart';
-import 'package:sot_richpresence/components/panels/large_panel.dart';
-import 'package:sot_richpresence/components/panels/small_panel.dart';
 import 'package:sot_richpresence/pages/loading/loading_page_controller.dart';
 
 class LoadingPage extends StatefulWidget {

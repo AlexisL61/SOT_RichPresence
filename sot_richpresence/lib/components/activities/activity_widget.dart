@@ -1,5 +1,6 @@
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:sot_richpresence/components/clippers/activity_clipper.dart';
+import 'package:sot_richpresence/components/colors/colors.dart';
 import 'package:sot_richpresence/models/activities/activity.dart';
 
 class ActivityWidget extends StatelessWidget {
@@ -15,14 +16,44 @@ class ActivityWidget extends StatelessWidget {
           color: Colors.black.withOpacity(0.5),
           child: Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Column(
-              children: [
-                Text(activity.name, style: TextStyle(fontSize: 24, color: Colors.white)),
-                SizedBox(height: 20),
-                Image.network(activity.image, fit: BoxFit.contain),
-              ],
+            child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 8),
+              child: Column(
+                children: [
+                  Text(activity.name, style: TextStyle(fontSize: 24, color: Colors.white)),
+                  SizedBox(height: 20),
+                  Image.network(activity.image, fit: BoxFit.contain),
+                  SizedBox(height: 20),
+                  _buildTime(),
+                  Text(activity.description, style: TextStyle(fontSize: 16, color: SotColors.white)),
+                ],
+              ),
             ),
           ),
         ));
+  }
+
+  Widget _buildTime() {
+    List<Widget> widgets = [];
+    for (int i = 0; i < activity.length; i++) {
+      widgets.add(Image.asset(
+        "assets/icons/time.webp",
+        color: SotColors.white,
+      ));
+    }
+    for (int i = 0; i < 5 - activity.length; i++) {
+      widgets.add(Image.asset(
+        "assets/icons/time.webp",
+        color: SotColors.darkYellow,
+      ));
+    }
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Text("Length ", style: TextStyle(fontSize: 16, color: SotColors.white)),
+        SizedBox(width: 5),
+        ...widgets.expand((element) => [element, SizedBox(width: 5)]).toList()
+      ],
+    );
   }
 }

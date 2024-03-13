@@ -1,0 +1,9 @@
+{
+    "_ship":"Ship",
+    "_no_ship_selected":"No ship selected",
+    "_ship_select_button":"Select a ship",
+
+    "_activity":"Activity",
+    "_no_activity_selected":"No activity selected",
+    "_activity_select_button":"Select an activity"
+}

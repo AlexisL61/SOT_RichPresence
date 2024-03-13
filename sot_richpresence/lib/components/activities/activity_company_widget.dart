@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:sot_richpresence/components/colors/colors.dart';
 import 'package:sot_richpresence/models/activities/activity_company.dart';
+import 'package:sot_richpresence/services/translations/translations_service.dart';
 
 class CompanyWidget extends StatelessWidget {
   final ActivityCompany company;
@@ -21,7 +22,8 @@ class CompanyWidget extends StatelessWidget {
             Expanded(child: Center(child: Image.network(company.image, fit: BoxFit.contain))),
             Expanded(
               flex: 2,
-              child: Center(child: Text(company.name, style: TextStyle(fontSize: 24, color: SotColors.white))),
+              child:
+                  Center(child: Text(onlineTr(company.name), style: TextStyle(fontSize: 24, color: SotColors.white))),
             ),
           ],
         ),

@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:sot_richpresence/components/background/background.dart';
 import 'package:sot_richpresence/components/panels/large_panel.dart';
@@ -37,9 +38,9 @@ class _HomePageState extends State<HomePage> {
               child: LargePanel(
                   image: AssetImage("assets/png/choose-activity.jpg"),
                   child: SizedBox(height: 200, width: 400),
-                  title: "Activité",
-                  description: "Aucune activité sélectionnée",
-                  actionText: "Sélectionner une activité",
+                  title: tr("_activity"),
+                  description: UserData().activity == null ? tr("_no_activity_selected") : UserData().activity!.name,
+                  actionText: tr("_activity_select_button"),
                   action: () {
                     Navigator.pushNamed(context, "/choose_activity_company");
                   }),
@@ -55,9 +56,9 @@ class _HomePageState extends State<HomePage> {
     return LargePanel(
         image: AssetImage("assets/png/choose-ship.jpg"),
         child: SizedBox(height: 200, width: 400),
-        title: "Navire",
-        description: drivenShip==null ? "Aucun bateau sélectionné" : drivenShip.name + " - " + drivenShip.players.toString() + " joueurs",
-        actionText: "Sélectionner un bateau",
+        title: tr("_ship"),
+        description: drivenShip==null ? tr("_no_ship_selected"): tr("_${drivenShip.name}_name") + " - " + drivenShip.players.toString() + " joueurs",
+        actionText: tr("_ship_select_button"),
         action: () async {
           DrivenShip? drivenShip = await Navigator.pushNamed(context, "/choose_ship") as DrivenShip?;
           if (drivenShip != null) {

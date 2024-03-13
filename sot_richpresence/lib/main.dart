@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter/material.dart';
 import 'package:sot_richpresence/pages/activities/choose_activity.dart';
@@ -7,8 +8,15 @@ import 'package:sot_richpresence/pages/loading/loading_page.dart';
 import 'package:sot_richpresence/pages/ships/choose_ship.dart';
 import 'package:sot_richpresence/pages/ships/choose_ship_players.dart';
 
-void main() {
-  runApp(const MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await EasyLocalization.ensureInitialized();
+  runApp(EasyLocalization(
+      supportedLocales: [Locale('en'), Locale('fr')],
+      path: 'assets/translations',
+      fallbackLocale: Locale('en'),
+      child: MyApp()
+    ),);
 }
 
 class MyApp extends StatelessWidget {
@@ -18,6 +26,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FluentApp(
+      localizationsDelegates: context.localizationDelegates,
+      supportedLocales: context.supportedLocales,
+      locale: context.locale,
       title: 'Sea of thieves RPC',
       themeMode: ThemeMode.dark,
       darkTheme: FluentThemeData(

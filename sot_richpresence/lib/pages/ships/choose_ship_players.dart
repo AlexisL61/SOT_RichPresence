@@ -1,7 +1,7 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:sot_richpresence/components/background/background.dart';
 import 'package:sot_richpresence/components/buttons/small_button.dart';
-import 'package:sot_richpresence/components/buttons/squared_button.dart';
 import 'package:sot_richpresence/components/separator/separator.dart';
 import 'package:sot_richpresence/models/ship/ship.dart';
 
@@ -32,7 +32,7 @@ class _ChooseShipPlayersPageState extends State<ChooseShipPlayersPage> {
                 child: Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Text("Choisissez le nombre de joueurs", style: TextStyle(fontSize: 24, color: Colors.white)),
+        Text(tr("_choose_player_number"), style: TextStyle(fontSize: 24, color: Colors.white)),
         SizedBox(height: 20),
         Separator(icon: "sloop"),
         SizedBox(height: 40),
@@ -43,14 +43,14 @@ class _ChooseShipPlayersPageState extends State<ChooseShipPlayersPage> {
 
   List<Widget> _buildPlayersChoice() {
     List<Widget> players = [];
-    for (int i = 1; i <= 4; i++) {
+    for (int i = 1; i <= widget.selectedShip.maxPlayers; i++) {
       players.add(Padding(
           padding: const EdgeInsets.all(8.0),
           child: SmallButton(
             onPressed: () {
               Navigator.pop(context, i);
             },
-            text: i.toString() + " joueurs",
+            text: plural("_number_of_players",i)
           )));
     }
     return players;

@@ -16,7 +16,6 @@ class ActivityCategoryWidget extends StatelessWidget {
         GridView.count(
           shrinkWrap: true,
           physics: NeverScrollableScrollPhysics(),
-            childAspectRatio: 2,
             crossAxisCount: 3,
             children: List.generate(activityCategory.activities.length, (index) {
               return Padding(

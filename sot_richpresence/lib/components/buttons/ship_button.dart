@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:sot_richpresence/components/buttons/squared_button.dart';
@@ -38,7 +39,7 @@ class _ShipButtonState extends State<ShipButton> {
                 ],
               ),
             ),
-            Padding(padding: EdgeInsets.only(top:8), child:NamePanel(text: widget.ship.name)),
+            Padding(padding: EdgeInsets.only(top:8), child:NamePanel(text: tr("_${widget.ship.name}_name"))),
           ],
         ));
   }
