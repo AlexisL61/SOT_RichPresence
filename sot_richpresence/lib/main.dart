@@ -1,5 +1,6 @@
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter/material.dart';
+import 'package:sot_richpresence/pages/activities/choose_activity.dart';
 import 'package:sot_richpresence/pages/activities/choose_activity_company.dart';
 import 'package:sot_richpresence/pages/home/home_page.dart';
 import 'package:sot_richpresence/pages/loading/loading_page.dart';
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
         '/choose_ship': (context) => ChooseShip(),
         '/choose_ship_players': (context) => ChooseShipPlayerRoute(),
         '/choose_activity_company': (context) => ChooseActivityCompanyPage(),
+        '/choose_activity':(context) => ChooseActivityRoute(),
       },
     );
   }

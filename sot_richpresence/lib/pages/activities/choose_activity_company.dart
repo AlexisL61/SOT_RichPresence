@@ -1,6 +1,6 @@
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:sot_richpresence/components/background/background.dart';
-import 'package:sot_richpresence/components/companies/company.dart';
+import 'package:sot_richpresence/components/activities/activity_company_widget.dart';
 import 'package:sot_richpresence/components/separator/separator.dart';
 import 'package:sot_richpresence/services/activities/activity_service.dart';
 
@@ -26,12 +26,17 @@ class _ChooseActivityCompanyPageState extends State<ChooseActivityCompanyPage> {
           child: Padding(
             padding: const EdgeInsets.all(16.0),
             child: GridView.count(
-              childAspectRatio: 2,
+                childAspectRatio: 2,
                 crossAxisCount: 3,
                 children: List.generate(ActivityService.activityCategories.length, (index) {
                   return Padding(
                     padding: const EdgeInsets.all(16.0),
-                    child: CompanyWidget(company: ActivityService.activityCategories[index]),
+                    child: GestureDetector(
+                        onTap: () => {
+                              Navigator.pushNamed(context, '/choose_activity',
+                                  arguments: ActivityService.activityCategories[index])
+                            },
+                        child: CompanyWidget(company: ActivityService.activityCategories[index])),
                   );
                 })),
           ),
