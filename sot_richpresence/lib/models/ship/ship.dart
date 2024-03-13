@@ -1,3 +1,4 @@
+import 'package:sot_richpresence/models/ship/driven_ship.dart';
 import 'package:sot_richpresence/models/ship/ship_type.dart';
 
 class Ship {
@@ -11,4 +12,8 @@ class Ship {
   final ShipType type;
 
   Ship({required this.name, required this.type});
+
+  DrivenShip toDrivenShip(int players) {
+    return DrivenShip(name: name, type: type, players: players);
+  }
 }
