@@ -11,7 +11,13 @@ class ActivityCategoryWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text(activityCategory.name, style: TextStyle(fontSize: 24, color: Colors.white)),
+        Row(
+          children: [
+            Image.network(activityCategory.icon, width: 50, height: 50),
+            SizedBox(width: 20),
+            Text(activityCategory.name, style: TextStyle(fontSize: 24, color: Colors.white)),
+          ],
+        ),
         SizedBox(height: 20),
         GridView.count(
           shrinkWrap: true,

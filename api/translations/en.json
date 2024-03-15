@@ -1,3 +1,20 @@
 {
-    "_gold_hoarder": "Gold Hoarder"
+    "_gold_hoarders": "Gold Hoarder",
+    "_order_of_souls": "Order of Souls",
+    "_merchant_alliance": "Merchant Alliance",
+    "_athenas_fortune": "Athena",
+    "_reapers_bones": "Reaper's Bones",
+    "_hunter_call": "Hunter's Call",
+
+    "_buried_treasures": "Buried Treasure",
+    "_a_pirates_treasure_map": "A Pirate's Treasure Map",
+    "_a_pirates_treasure_map_description": "Study a map to unearth two hidden treasure chests buried on a small island.",
+    "_an_ashen_pirates_treasure_map": "An Ashen Pirate's Treasure Map",
+    "_an_ashen_pirates_treasure_map_description": "Study a map to unearth two hidden treasure chests buried on a small island.",
+
+    "_riddle": "Riddle",
+    "_a_pirates_riddle_quest": "A Pirate's Riddle Quest",
+    "_a_pirates_riddle_quest_description": "Solve a short riddle to uncover modest riches hidden on a large island.",
+    "_an_ashen_pirates_riddle_quest": "An Ashen Pirate's Riddle Quest",
+    "_an_ashen_pirates_riddle_quest_description": "Solve a short riddle to uncover modest riches hidden on a large island in the perilous Devil's Roar."
 }

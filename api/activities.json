@@ -1,13 +1,14 @@
 [
     {
         "id":"gold_hoarder",
-        "name":"_gold_hoarder",
-        "image": "https://static.wikia.nocookie.net/seaofthieves_gamepedia/images/f/f1/Gold_Hoarders_icon.png/revision/latest?cb=20200512034953",
+        "name":"_gold_hoarders",
+        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/icons/gold_hoarders.png",
         "background_image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/gold-hoarders.svg",
         "categories": [
             {
                 "id":"buried_treasures",
                 "name":"_buried_treasures",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Buried_Treasure_Voyage_icon.png",
                 "activities": [
                     {
                         "id":"a_pirates_treasure_map",
@@ -15,6 +16,34 @@
                         "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Treasure_Map.png",
                         "length":1,
                         "description":"_a_pirates_treasure_map_description"
+                    },
+                    {
+                        "id":"an_ashen_pirates_treasure_map",
+                        "name":"_an_ashen_pirates_treasure_map",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Pirates_Treasure_Map.png",
+                        "length":1,
+                        "description":"_an_ashen_pirates_treasure_map_description"
+                    }
+                ]
+            },
+            {
+                "id":"riddle",
+                "name":"_riddle",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Riddle_Voyage_icon.png",
+                "activities": [
+                    {
+                        "id":"a_pirates_riddle_quest",
+                        "name":"_a_pirates_riddle_quest",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Riddle_Quest.png",
+                        "length":1,
+                        "description":"_a_pirates_riddle_quest_description"
+                    },
+                    {
+                        "id":"an_ashen_pirates_riddle_quest",
+                        "name":"_an_ashen_pirates_riddle_quest",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Captains_Riddle_Quest.png",
+                        "length":2,
+                        "description":"_an_ashen_pirates_riddle_quest_description"
                     }
                 ]
             }
@@ -22,128 +51,42 @@
     },
     {
         "id":"order_of_souls",
-        "name":"_order_of_sous",
-        "image": "https://static.wikia.nocookie.net/seaofthieves_gamepedia/images/f/f1/Gold_Hoarders_icon.png/revision/latest?cb=20200512034953",
+        "name":"_order_of_souls",
+        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/icons/order_of_souls.png",
         "background_image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/order-of-souls.svg",
         "categories": [
-            {
-                "id":"buried_treasures",
-                "name":"_buried_treasures",
-                "activities": [
-                    {
-                        "id":"a_pirates_treasure_map",
-                        "name":"_a_pirates_treasure_map",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Treasure_Map.png",
-                        "length":1,
-                        "description":"_a_pirates_treasure_map_description"
-                    }
-                ]
-            }
         ]
     },
     {
         "id":"merchant_alliance",
         "name":"_merchant_alliance",
-        "image": "https://static.wikia.nocookie.net/seaofthieves_gamepedia/images/f/f1/Gold_Hoarders_icon.png/revision/latest?cb=20200512034953",
+        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/icons/merchant_alliance.png",
         "background_image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/merchant-alliance.svg",
         "categories": [
-            {
-                "id":"buried_treasures",
-                "name":"_buried_treasures",
-                "activities": [
-                    {
-                        "id":"a_pirates_treasure_map",
-                        "name":"_a_pirates_treasure_map",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Treasure_Map.png",
-                        "length":1,
-                        "description":"_a_pirates_treasure_map_description"
-                    }
-                ]
-            }
         ]
     },
     {
         "id":"reapers_bones",
         "name":"_reapers_bones",
-        "image": "https://static.wikia.nocookie.net/seaofthieves_gamepedia/images/f/f1/Gold_Hoarders_icon.png/revision/latest?cb=20200512034953",
+        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/icons/reapers_bones.png",
         "background_image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/reapers-bones.svg",
         "categories": [
-            {
-                "id":"buried_treasures",
-                "name":"_buried_treasures",
-                "activities": [
-                    {
-                        "id":"a_pirates_treasure_map",
-                        "name":"_a_pirates_treasure_map",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Treasure_Map.png",
-                        "length":1,
-                        "description":"_a_pirates_treasure_map_description"
-                    }
-                ]
-            }
         ]
     },
     {
         "id":"athenas_fortune",
         "name":"_athenas_fortune",
-        "image": "https://static.wikia.nocookie.net/seaofthieves_gamepedia/images/f/f1/Gold_Hoarders_icon.png/revision/latest?cb=20200512034953",
+        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/icons/athenas_fortune.png",
         "background_image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/athenas-fortune.svg",
         "categories": [
-            {
-                "id":"buried_treasures",
-                "name":"_buried_treasures",
-                "activities": [
-                    {
-                        "id":"a_pirates_treasure_map",
-                        "name":"_a_pirates_treasure_map",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Treasure_Map.png",
-                        "length":1,
-                        "description":"_a_pirates_treasure_map_description"
-                    }
-                ]
-            }
         ]
     },
     {
         "id":"hunters_call",
         "name":"hunters_call",
-        "image": "https://static.wikia.nocookie.net/seaofthieves_gamepedia/images/f/f1/Gold_Hoarders_icon.png/revision/latest?cb=20200512034953",
+        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/icons/hunters_call.webp",
         "background_image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/hunters-call.svg",
         "categories": [
-            {
-                "id":"buried_treasures",
-                "name":"_buried_treasures",
-                "activities": [
-                    {
-                        "id":"a_pirates_treasure_map",
-                        "name":"_a_pirates_treasure_map",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Treasure_Map.png",
-                        "length":1,
-                        "description":"_a_pirates_treasure_map_description"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"hunters_call",
-        "name":"hunters_call",
-        "image": "https://static.wikia.nocookie.net/seaofthieves_gamepedia/images/f/f1/Gold_Hoarders_icon.png/revision/latest?cb=20200512034953",
-        "background_image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/hunters-call.svg",
-        "categories": [
-            {
-                "id":"buried_treasures",
-                "name":"_buried_treasures",
-                "activities": [
-                    {
-                        "id":"a_pirates_treasure_map",
-                        "name":"_a_pirates_treasure_map",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Treasure_Map.png",
-                        "length":1,
-                        "description":"_a_pirates_treasure_map_description"
-                    }
-                ]
-            }
         ]
     }
 ]

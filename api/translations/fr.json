@@ -1,3 +1,14 @@
 {
-    "_gold_hoarder": "Les collectionneurs d'or"
+    "_gold_hoarders": "Les collectionneurs d'or",
+    "_order_of_souls": "L'Ordre des âmes",
+    "_merchant_alliance": "L'Alliance des marchands",
+    "_athenas_fortune": "Athena",
+    "_reapers_bones": "Les os de la Faucheuse",
+    "_hunter_call": "L'appel du chasseur",
+
+    "_buried_treasures": "Trésors enterrés",
+    "_a_pirates_treasure_map": "Une carte au trésor de pirate",
+    "_a_pirates_treasure_map_description": "Étudiez une carte pour découvrir deux coffres au trésor cachés enterrés sur une petite île.",
+    "_an_ashen_pirates_treasure_map": "Une carte au trésor de pirate cendré",
+    "_an_ashen_pirates_treasure_map_description": "Étudiez une carte pour découvrir deux coffres au trésor cachés enterrés sur une petite île."
 }
