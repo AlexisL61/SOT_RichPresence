@@ -19,12 +19,14 @@ class CompanyWidget extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            SizedBox(width: 30),
             Expanded(child: Center(child: Image.network(company.image, fit: BoxFit.contain))),
             Expanded(
               flex: 2,
               child:
                   Center(child: Text(onlineTr(company.name), style: TextStyle(fontSize: 24, color: SotColors.white))),
             ),
+            SizedBox(width: 30)
           ],
         ),
       ],

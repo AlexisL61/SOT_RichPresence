@@ -9,12 +9,20 @@
     "_buried_treasures": "Buried Treasure",
     "_a_pirates_treasure_map": "A Pirate's Treasure Map",
     "_a_pirates_treasure_map_description": "Study a map to unearth two hidden treasure chests buried on a small island.",
+    "_a_captains_treasure_map": "A Captain's Treasure Map",
+    "_a_captains_treasure_map_description": "Study a map to unearth three hidden treasure chests buried on a large island.",
     "_an_ashen_pirates_treasure_map": "An Ashen Pirate's Treasure Map",
-    "_an_ashen_pirates_treasure_map_description": "Study a map to unearth two hidden treasure chests buried on a small island.",
+    "_an_ashen_pirates_treasure_map_description": "Study a map to unearth two hidden treasure chests buried on a small island in the perilous Devil's Roar.",
+    "_an_ashen_captains_treasure_map": "An Ashen Captain's Treasure Map",
+    "_an_ashen_captains_treasure_map_description": "Study a map to unearth three hidden treasure chests buried on a large island in the perilous Devil's Roar.",
 
     "_riddle": "Riddle",
     "_a_pirates_riddle_quest": "A Pirate's Riddle Quest",
     "_a_pirates_riddle_quest_description": "Solve a short riddle to uncover modest riches hidden on a large island.",
+    "_a_captains_riddle_quest": "A Captain's Riddle Quest",
+    "_a_captains_riddle_quest_description": "Solve a long riddle to uncover plentiful riches hidden on a large island.",
     "_an_ashen_pirates_riddle_quest": "An Ashen Pirate's Riddle Quest",
-    "_an_ashen_pirates_riddle_quest_description": "Solve a short riddle to uncover modest riches hidden on a large island in the perilous Devil's Roar."
+    "_an_ashen_pirates_riddle_quest_description": "Solve a short riddle to uncover modest riches hidden on a large island in the perilous Devil's Roar.",
+    "_an_ashen_captains_riddle_quest": "An Ashen Captain's Riddle Quest",
+    "_an_ashen_captains_riddle_quest_description": "Solve a long riddle to uncover plentiful riches hidden on a large island in the perilous Devil's Roar."
 }

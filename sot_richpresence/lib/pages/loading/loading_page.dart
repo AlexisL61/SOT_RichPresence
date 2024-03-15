@@ -13,7 +13,7 @@ class _LoadingPageState extends State<LoadingPage> {
   @override
   void initState() {
     LoadingPageController controller = LoadingPageController();
-    controller.init().then((value) {
+    controller.init(context).then((value) {
       Navigator.of(context).pushReplacementNamed('/home');
     });
     super.initState();

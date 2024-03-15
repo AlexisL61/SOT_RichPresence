@@ -2,6 +2,7 @@ import 'package:fluent_ui/fluent_ui.dart';
 import 'package:sot_richpresence/components/clippers/activity_clipper.dart';
 import 'package:sot_richpresence/components/colors/colors.dart';
 import 'package:sot_richpresence/models/activities/activity.dart';
+import 'package:sot_richpresence/services/translations/translations_service.dart';
 
 class ActivityWidget extends StatelessWidget {
   final Activity activity;
@@ -20,12 +21,18 @@ class ActivityWidget extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 8),
               child: Column(
                 children: [
-                  Text(activity.name, style: TextStyle(fontSize: 24, color: Colors.white)),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(onlineTr(activity.name), style: TextStyle(fontSize: 24, color: Colors.white), textAlign: TextAlign.center,),
+                  ),
                   SizedBox(height: 20),
                   Image.network(activity.image, fit: BoxFit.contain),
                   SizedBox(height: 20),
                   _buildTime(),
-                  Text(activity.description, style: TextStyle(fontSize: 16, color: SotColors.white)),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(onlineTr(activity.description), style: TextStyle(fontSize: 16, color: SotColors.white)),
+                  ),
                 ],
               ),
             ),

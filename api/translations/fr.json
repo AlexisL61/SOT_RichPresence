@@ -9,6 +9,21 @@
     "_buried_treasures": "Trésors enterrés",
     "_a_pirates_treasure_map": "Une carte au trésor de pirate",
     "_a_pirates_treasure_map_description": "Étudiez une carte pour découvrir deux coffres au trésor cachés enterrés sur une petite île.",
+    "_a_captains_treasure_map": "Une carte au trésor de capitaine",
+    "_a_captains_treasure_map_description": "Étudiez une carte pour découvrir trois coffres au trésor cachés enterrés sur une grande île.",
     "_an_ashen_pirates_treasure_map": "Une carte au trésor de pirate cendré",
-    "_an_ashen_pirates_treasure_map_description": "Étudiez une carte pour découvrir deux coffres au trésor cachés enterrés sur une petite île."
+    "_an_ashen_pirates_treasure_map_description": "Étudiez une carte pour découvrir deux coffres au trésor cachés enterrés sur une petite île dans le Devil's Roar.",
+    "_an_ashen_captains_treasure_map": "Une carte au trésor de capitaine cendré",
+    "_an_ashen_captains_treasure_map_description": "Étudiez une carte pour découvrir trois coffres au trésor cachés enterrés sur une grande île dans le Devil's Roar.",
+
+    "_riddle": "Énigme",
+    "_a_pirates_riddle_quest": "Une énigme de pirate",
+    "_a_pirates_riddle_quest_description": "Résolvez une courte énigme pour découvrir un modeste butin sur une grande île.",
+    "_a_captains_riddle_quest": "Une énigme de capitaine",
+    "_a_captains_riddle_quest_description": "Résolvez une énigme pour découvrir un butin conséquent sur une grande île.",
+    "_an_ashen_pirates_riddle_quest": "Une énigme de pirate cendré",
+    "_an_ashen_pirates_riddle_quest_description": "Résolvez une énigme pour découvrir un modeste butin sur une grande île dans le Devil's Roar.",
+    "_an_ashen_captains_riddle_quest": "Une énigme de capitaine cendré",
+    "_an_ashen_captains_riddle_quest_description": "Résolvez une énigme pour découvrir un butin conséquent sur une grande île dans le Devil's Roar."
+
 }

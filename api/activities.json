@@ -18,11 +18,25 @@
                         "description":"_a_pirates_treasure_map_description"
                     },
                     {
+                        "id":"a_captains_treasure_map",
+                        "name":"_a_captains_treasure_map",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Treasure_Map.png",
+                        "length":2,
+                        "description":"_a_captains_treasure_map_description"
+                    },
+                    {
                         "id":"an_ashen_pirates_treasure_map",
                         "name":"_an_ashen_pirates_treasure_map",
                         "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Pirates_Treasure_Map.png",
                         "length":1,
                         "description":"_an_ashen_pirates_treasure_map_description"
+                    },
+                    {
+                        "id":"an_ashen_captains_treasure_map",
+                        "name":"_an_ashen_captains_treasure_map",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Pirates_Treasure_Map.png",
+                        "length":2,
+                        "description":"_an_ashen_captains_treasure_map_description"
                     }
                 ]
             },
@@ -39,11 +53,25 @@
                         "description":"_a_pirates_riddle_quest_description"
                     },
                     {
+                        "id":"a_captains_riddle_quest",
+                        "name":"_a_captains_riddle_quest",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Riddle_Quest.png",
+                        "length":2,
+                        "description":"_a_captains_riddle_quest_description"
+                    },
+                    {
                         "id":"an_ashen_pirates_riddle_quest",
                         "name":"_an_ashen_pirates_riddle_quest",
                         "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Captains_Riddle_Quest.png",
                         "length":2,
                         "description":"_an_ashen_pirates_riddle_quest_description"
+                    },
+                    {
+                        "id":"an_ashen_captains_riddle_quest",
+                        "name":"_an_ashen_captains_riddle_quest",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Captains_Riddle_Quest.png",
+                        "length":2,
+                        "description":"_an_ashen_captains_riddle_quest_description"
                     }
                 ]
             }
