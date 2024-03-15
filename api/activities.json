@@ -27,14 +27,14 @@
                     {
                         "id":"an_ashen_pirates_treasure_map",
                         "name":"_an_ashen_pirates_treasure_map",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Pirates_Treasure_Map.png",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Pirates_Treasure_Map.webp",
                         "length":1,
                         "description":"_an_ashen_pirates_treasure_map_description"
                     },
                     {
                         "id":"an_ashen_captains_treasure_map",
                         "name":"_an_ashen_captains_treasure_map",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Pirates_Treasure_Map.png",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Pirates_Treasure_Map.webp",
                         "length":2,
                         "description":"_an_ashen_captains_treasure_map_description"
                     }
