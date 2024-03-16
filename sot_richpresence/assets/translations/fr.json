@@ -17,5 +17,9 @@
         "one": "{} joueur",
         "many": "{} joueurs",
         "other": "{} joueurs"
-    }
+    },
+
+    "_ship_rpc": "{ship} | {players} / {max_players} joueurs",
+    "_ship_rpc_no_activity": "Sur la mer"
+
 }

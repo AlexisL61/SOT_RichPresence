@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:sot_richpresence/services/activities/activity_service.dart';
+import 'package:sot_richpresence/services/discord/rich_presence_service.dart';
 import 'package:sot_richpresence/services/translations/translations_service.dart';
 
 class LoadingPageController {
@@ -8,5 +9,6 @@ class LoadingPageController {
     await TranslationsService.fetchAvailableTranslations();
     await TranslationsService.fetchSpecificTranslation(buildContext.locale.languageCode);
     await ActivityService.fetchActivityCategories();
+    RichPresenceService.initialize();
   }
 }

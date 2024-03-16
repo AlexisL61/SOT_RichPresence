@@ -28,25 +28,28 @@ class _ChooseActivityPageState extends State<ChooseActivityPage> {
   Widget build(BuildContext context) {
     return NavigationView(
         content: SotBackground(
-            child: Column(
-      children: [
-        Text("Choisissez une activité", style: TextStyle(fontSize: 24, color: Colors.white)),
-        SizedBox(height: 20),
-        Separator(icon: "sloop"),
-        SizedBox(height: 40),
-        Expanded(
-          child: Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: ListView(
-                children: List.generate(widget.company.categories.length, (index) {
-                  return Padding(
-                    padding: const EdgeInsets.all(16.0),
-                    child: ActivityCategoryWidget(activityCategory: widget.company.categories[index]),
-                  );
-                })),
-          ),
-        ),
-      ],
-    )));
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                    children: [
+                      Text("Choisissez une activité", style: TextStyle(fontSize: 24, color: Colors.white)),
+                      SizedBox(height: 20),
+                      Separator(icon: "sloop"),
+                      SizedBox(height: 40),
+                      Expanded(
+                        child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: ListView(
+                  children: List.generate(widget.company.categories.length, (index) {
+                    return Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: ActivityCategoryWidget(activityCategory: widget.company.categories[index]),
+                    );
+                  })),
+                        ),
+                      ),
+                    ],
+                  ),
+            )));
   }
 }

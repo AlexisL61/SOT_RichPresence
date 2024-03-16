@@ -1,3 +1,4 @@
+import 'package:dart_discord_rpc/dart_discord_rpc.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter/material.dart';
@@ -11,12 +12,14 @@ import 'package:sot_richpresence/pages/ships/choose_ship_players.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await EasyLocalization.ensureInitialized();
-  runApp(EasyLocalization(
-      supportedLocales: [Locale('en'), Locale('fr')],
-      path: 'assets/translations',
-      fallbackLocale: Locale('en'),
-      child: MyApp()
-    ),);
+  DiscordRPC.initialize();
+  runApp(
+    EasyLocalization(
+        supportedLocales: [Locale('en'), Locale('fr')],
+        path: 'assets/translations',
+        fallbackLocale: Locale('en'),
+        child: MyApp()),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -37,11 +40,11 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => LoadingPage(),
-        '/home':(context) => HomePage(),
+        '/home': (context) => HomePage(),
         '/choose_ship': (context) => ChooseShip(),
         '/choose_ship_players': (context) => ChooseShipPlayerRoute(),
         '/choose_activity_company': (context) => ChooseActivityCompanyPage(),
-        '/choose_activity':(context) => ChooseActivityRoute(),
+        '/choose_activity': (context) => ChooseActivityRoute(),
       },
     );
   }

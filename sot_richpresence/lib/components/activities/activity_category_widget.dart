@@ -1,4 +1,5 @@
 import 'package:fluent_ui/fluent_ui.dart';
+import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sot_richpresence/components/activities/activity_widget.dart';
 import 'package:sot_richpresence/models/activities/activity_category.dart';
 import 'package:sot_richpresence/services/responsive_service/responsive_service.dart';
@@ -24,10 +25,7 @@ class ActivityCategoryWidget extends StatelessWidget {
         SizedBox(height: 20),
         Padding(
           padding: EdgeInsets.symmetric(horizontal: ResponsiveService.getPadding(MediaQuery.of(context).size.width)),
-          child: GridView.count(
-            childAspectRatio: 0.75,
-            shrinkWrap: true,
-            physics: NeverScrollableScrollPhysics(),
+          child: StaggeredGrid.count(
               crossAxisCount: ResponsiveService.getColumns(MediaQuery.of(context).size.width),
               children: List.generate(activityCategory.activities.length, (index) {
                 return Padding(
