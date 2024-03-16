@@ -78,7 +78,7 @@
             {
                 "id":"vault",
                 "name":"_vault",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Treasure_Vault_Voyage_icon.png",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Treasure_Vault_Voyage_icon.webp",
                 "activities": [
                     {
                         "id":"a_pirates_treasure_vault",
@@ -90,7 +90,7 @@
                     {
                         "id":"a_captains_treasure_vault",
                         "name":"_a_captains_treasure_vault",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Captains_Treasure_Vault.webp",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Treasure_Vault.webp",
                         "length":5,
                         "description":"_a_captains_treasure_vault_description"
                     },
