@@ -15,6 +15,6 @@ class Ship {
   Ship({required this.name, required this.type, this.maxPlayers = 4});
 
   DrivenShip toDrivenShip(int players) {
-    return DrivenShip(name: name, type: type, players: players);
+    return DrivenShip(name: name, type: type, players: players, maxPlayers: maxPlayers);
   }
 }
