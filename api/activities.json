@@ -74,6 +74,41 @@
                         "description":"_an_ashen_captains_riddle_quest_description"
                     }
                 ]
+            },
+            {
+                "id":"vault",
+                "name":"_vault",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Treasure_Vault_Voyage_icon.png",
+                "activities": [
+                    {
+                        "id":"a_pirates_treasure_vault",
+                        "name":"_a_pirates_treasure_vault",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Treasure_Vault.webp",
+                        "length":4,
+                        "description":"_a_pirates_treasure_vault_description"
+                    },
+                    {
+                        "id":"a_captains_treasure_vault",
+                        "name":"_a_captains_treasure_vault",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Captains_Treasure_Vault.webp",
+                        "length":5,
+                        "description":"_a_captains_treasure_vault_description"
+                    },
+                    {
+                        "id":"an_ashen_pirates_treasure_vault",
+                        "name":"_an_ashen_pirates_treasure_vault",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Captains_Treasure_Vault.png",
+                        "length":4,
+                        "description":"_an_ashen_pirates_treasure_vault_description"
+                    },
+                    {
+                        "id":"an_ashen_captains_treasure_vault",
+                        "name":"_an_ashen_captains_treasure_vault",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Captains_Treasure_Vault.png",
+                        "length":5,
+                        "description":"_an_ashen_captains_treasure_vault_description"
+                    }
+                ]
             }
         ]
     },
@@ -83,6 +118,41 @@
         "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/icons/order_of_souls.png",
         "background_image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/order-of-souls.svg",
         "categories": [
+            {
+                "id":"bounty",
+                "name":"_bounty",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Bounty_Voyage_icon.png",
+                "activities": [
+                    {
+                        "id":"a_pirates_treasure_map",
+                        "name":"_a_pirates_treasure_map",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Treasure_Map.png",
+                        "length":1,
+                        "description":"_a_pirates_treasure_map_description"
+                    },
+                    {
+                        "id":"a_captains_treasure_map",
+                        "name":"_a_captains_treasure_map",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Treasure_Map.png",
+                        "length":2,
+                        "description":"_a_captains_treasure_map_description"
+                    },
+                    {
+                        "id":"an_ashen_pirates_treasure_map",
+                        "name":"_an_ashen_pirates_treasure_map",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Pirates_Treasure_Map.webp",
+                        "length":1,
+                        "description":"_an_ashen_pirates_treasure_map_description"
+                    },
+                    {
+                        "id":"an_ashen_captains_treasure_map",
+                        "name":"_an_ashen_captains_treasure_map",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Pirates_Treasure_Map.webp",
+                        "length":2,
+                        "description":"_an_ashen_captains_treasure_map_description"
+                    }
+                ]
+            }
         ]
     },
     {

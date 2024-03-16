@@ -1,22 +1,22 @@
 class ResponsiveService {
-  static double getPadding(double width) {
-    if (width < 800) {
+  static double getPadding(double width, {double ratio = 1}) {
+    if (width < 800*ratio) {
       return 0;
-    } else if (width < 1200) {
-      return (width-800)/2;
-    } else if (width < 1600) {
-      return (width-1200)/2;
+    } else if (width < 1200*ratio) {
+      return (width - 800*ratio) / 2;
+    } else if (width < 1600*ratio) {
+      return (width - 1200*ratio) / 2;
     } else {
-      return (width-1600)/2;
+      return (width - 1600*ratio) / 2;
     }
   }
 
-  static int getColumns(double width) {
-    if (width < 800) {
+  static int getColumns(double width, {double ratio = 1}) {
+    if (width < 800*ratio) {
       return 1;
-    } else if (width < 1200) {
+    } else if (width < 1200*ratio) {
       return 2;
-    } else if (width < 1600) {
+    } else if (width < 1600*ratio) {
       return 3;
     } else {
       return 4;

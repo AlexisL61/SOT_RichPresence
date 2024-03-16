@@ -3,6 +3,7 @@ import 'package:sot_richpresence/components/background/background.dart';
 import 'package:sot_richpresence/components/activities/activity_company_widget.dart';
 import 'package:sot_richpresence/components/separator/separator.dart';
 import 'package:sot_richpresence/services/activities/activity_service.dart';
+import 'package:sot_richpresence/services/responsive_service/responsive_service.dart';
 
 class ChooseActivityCompanyPage extends StatefulWidget {
   const ChooseActivityCompanyPage({super.key});
@@ -24,10 +25,10 @@ class _ChooseActivityCompanyPageState extends State<ChooseActivityCompanyPage> {
         SizedBox(height: 40),
         Expanded(
           child: Padding(
-            padding: const EdgeInsets.all(16.0),
+            padding: EdgeInsets.symmetric(vertical:16.0, horizontal: ResponsiveService.getPadding(MediaQuery.of(context).size.width, ratio: 1.5)),
             child: GridView.count(
                 childAspectRatio: 2,
-                crossAxisCount: 3,
+                crossAxisCount: ResponsiveService.getColumns(MediaQuery.of(context).size.width, ratio: 1.5),
                 children: List.generate(ActivityService.activityCategories.length, (index) {
                   return Padding(
                     padding: const EdgeInsets.all(16.0),

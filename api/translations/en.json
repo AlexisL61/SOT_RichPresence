@@ -24,5 +24,15 @@
     "_an_ashen_pirates_riddle_quest": "An Ashen Pirate's Riddle Quest",
     "_an_ashen_pirates_riddle_quest_description": "Solve a short riddle to uncover modest riches hidden on a large island in the perilous Devil's Roar.",
     "_an_ashen_captains_riddle_quest": "An Ashen Captain's Riddle Quest",
-    "_an_ashen_captains_riddle_quest_description": "Solve a long riddle to uncover plentiful riches hidden on a large island in the perilous Devil's Roar."
+    "_an_ashen_captains_riddle_quest_description": "Solve a long riddle to uncover plentiful riches hidden on a large island in the perilous Devil's Roar.",
+
+    "_vault": "Treasure vault",
+    "_a_pirates_treasure_vault": "A Pirate's Treasure Vault",
+    "_a_pirates_treasure_vault_description": "Recover three pieces of a lost treasure map, then unearth a key to an ancient vault of tricks and treasure.",
+    "_a_captains_treasure_vault": "A Captain's Treasure Vault",
+    "_a_captains_treasure_vault_description": "Recover six pieces of a lost treasure map, then unearth a key to an ancient vault of tricks and treasure.",
+    "_an_ashen_pirates_treasure_vault": "An Ashen Pirate's Treasure Vault",
+    "_an_ashen_pirates_treasure_vault_description": "Recover three pieces of a lost treasure map in the Devil's Roar, then unearth a key to an ancient vault of tricks and treasure.",
+    "_an_ashen_captains_treasure_vault": "An Ashen Captain's Treasure Vault",
+    "_an_ashen_captains_treasure_vault_description": "Recover six pieces of a lost treasure map in the Devil's Roar, then unearth a key to an ancient vault of tricks and treasure."
 }
