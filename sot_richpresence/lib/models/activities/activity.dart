@@ -4,6 +4,7 @@ class Activity {
   final int length;
   final String description;
   final String image;
+  final String rpc;
 
   const Activity({
     required this.id,
@@ -11,6 +12,7 @@ class Activity {
     required this.length,
     required this.description,
     required this.image,
+    required this.rpc
   });
 
   static Activity fromJson(Map<String, dynamic> json) {
@@ -20,6 +22,7 @@ class Activity {
       length: json['length'] as int,
       description: json['description'] as String,
       image: json['image'] as String,
+      rpc: json['rpc'] as String
     );
   }
 
