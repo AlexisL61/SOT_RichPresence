@@ -46,5 +46,13 @@
     "_an_ashen_pirates_treasure_vault_rpc": "Searching for an ashen treasure vault",
     "_an_ashen_captains_treasure_vault": "An Ashen Captain's Treasure Vault",
     "_an_ashen_captains_treasure_vault_description": "Recover six pieces of a lost treasure map in the Devil's Roar, then unearth a key to an ancient vault of tricks and treasure.",
-    "_an_ashen_captains_treasure_vault_rpc": "Searching for an ashen treasure vault"
+    "_an_ashen_captains_treasure_vault_rpc": "Searching for an ashen treasure vault",
+
+    "_gold_hoarders_medley": "Medley",
+    "_a_medley_of_gold_hoarders_voyages": "A Medley of Gold Hoarders Voyages",
+    "_a_medley_of_gold_hoarders_voyages_description": "Read maps, solve riddles and use a Wayfinder on this long Gold Hoarders Voyage",
+    "_a_medley_of_gold_hoarders_voyages_rpc": "Doing a medley of Gold Hoarders voyages",
+    "_an_ashen_medley_of_gold_hoarders_voyages": "An Ashen Medley of Gold Hoarders Voyages",
+    "_an_ashen_medley_of_gold_hoarders_voyages_description": "Read maps, solve riddles and use a Wayfinder on this long Gold Hoarders Voyage in the perilous Devil's Roar.",
+    "_an_ashen_medley_of_gold_hoarders_voyages_rpc": "Doing an ashen medley of Gold Hoarders voyages"
 }

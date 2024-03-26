@@ -46,5 +46,13 @@
     "_an_ashen_pirates_treasure_vault_rpc": "Cherche une cache au trésor cendrée",
     "_an_ashen_captains_treasure_vault": "Une cache au trésor de capitaine cendré",
     "_an_ashen_captains_treasure_vault_description": "Récupérez six morceaux d'une carte au trésor perdue dans le Devil's Roar, puis déterrez une clé pour une ancienne cache au trésor pleine de pièges et de trésors.",
-    "_an_ashen_captains_treasure_vault_rpc": "Cherche une cache au trésor cendrée"
+    "_an_ashen_captains_treasure_vault_rpc": "Cherche une cache au trésor cendrée",
+
+    "_gold_hoarders_medley": "Florilège",
+    "_a_medley_of_gold_hoarders_voyages": "Un florilège de voyages des collectionneurs d'or",
+    "_a_medley_of_gold_hoarders_voyages_description": "Lisez des cartes, résolvez des énigmes et utilisez votre boussole dans ce long voyage pour les collectionneurs d'or.",
+    "_a_medley_of_gold_hoarders_voyages_rpc": "Fait un florilège de voyages pour les collectionneurs d'or",
+    "_an_ashen_medley_of_gold_hoarders_voyages": "Un florilège de voyages des collectionneurs d'or cendré",
+    "_an_ashen_medley_of_gold_hoarders_voyages_description": "Lisez des cartes, résolvez des énigmes et utilisez votre boussole dans ce long voyage pour les collectionneurs d'or dans le Devil's Roar.",
+    "_an_ashen_medley_of_gold_hoarders_voyages_rpc": "Fait un florilège de voyages cendrés pour les collectionneurs d'or"
 }
