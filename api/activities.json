@@ -135,7 +135,14 @@
                 "name":"_bounty",
                 "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Bounty_Voyage_icon.png",
                 "activities": [
-                    
+                    {
+                        "id":"a_bounty_for_a_skeleton_crew",
+                        "name":"_a_bounty_for_a_skeleton_crew",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Bounty_for_a_Skeleton_Crew.png",
+                        "length":1,
+                        "description":"_a_bounty_for_a_skeleton_crew_description",
+                        "rpc":"_a_bounty_for_a_skeleton_crew_rpc"
+                    }
                 ]
             }
         ]
