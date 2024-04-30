@@ -22,7 +22,7 @@ class RichPresenceService {
         "max_players": UserData().drivenShip!.maxPlayers.toString()
       }),
       smallImageKey: UserData().drivenShip!.name,
-      smallImageText: tr(UserData().drivenShip!.name),
+      smallImageText: tr("_"+UserData().drivenShip!.name+"_name"),
       startTimeStamp: DateTime.now().millisecondsSinceEpoch,
     ));
   }
@@ -31,12 +31,12 @@ class RichPresenceService {
     _discordRPC.updatePresence(DiscordPresence(
       details: onlineTr(UserData().activity!.rpc),
       state: tr("_ship_rpc", namedArgs: {
-        "ship": tr("_"+UserData().drivenShip!.type.name+"_name"),
+        "ship": tr("_"+UserData().drivenShip!.name+"_name"),
         "players": UserData().drivenShip!.players.toString(),
         "max_players": UserData().drivenShip!.maxPlayers.toString(),
       }),
       smallImageKey: UserData().drivenShip!.name,
-      smallImageText: tr(UserData().drivenShip!.name),
+      smallImageText: tr("_"+UserData().drivenShip!.name+"_name"),
       largeImageKey: UserData().activity!.id,
       largeImageText: onlineTr(UserData().activity!.name),
       startTimeStamp: DateTime.now().millisecondsSinceEpoch,

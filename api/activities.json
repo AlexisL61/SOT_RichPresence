@@ -121,6 +121,29 @@
                         "rpc":"_an_ashen_captains_treasure_vault_rpc"
                     }
                 ]
+            },
+            {
+                "id":"gold_hoarders_medley",
+                "name":"_gold_hoarders_medley",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Gold_Hoarders_Medley_Voyage_icon.png",
+                "activities": [
+                    {
+                        "id":"a_medley_of_gold_hoarders_voyages",
+                        "name":"_a_medley_of_gold_hoarders_voyages",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Medley_of_Gold_Hoarders_Voyages.webp",
+                        "length":5,
+                        "description":"_a_medley_of_gold_hoarders_voyages_description",
+                        "rpc":"_a_medley_of_gold_hoarders_voyages_rpc"
+                    },
+                    {
+                        "id":"an_ashen_medley_of_gold_hoarders_voyages",
+                        "name":"_an_ashen_medley_of_gold_hoarders_voyages",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Medley_of_Gold_Hoarders_Voyages.webp",
+                        "length":5,
+                        "description":"_an_ashen_medley_of_gold_hoarders_voyages_description",
+                        "rpc":"_an_ashen_medley_of_gold_hoarders_voyages_rpc"
+                    }
+                ]
             }
         ]
     },
