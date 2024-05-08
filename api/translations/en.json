@@ -131,4 +131,28 @@
     "_a_raid_on_a_skeleton_fort_for_order_of_souls_rpc": "Raiding a skeleton fort for Order of Souls",
     "_a_battle_with_a_skeleton_fleet_for_order_of_souls_rpc": "Fighting a skeleton fleet for Order of Souls",
     "_a_battle_with_the_burning_blades_armada_for_order_of_souls_rpc": "Fighting the Burning Blade Armada for Order of Souls",
+
+    "_merchant_alliance_medley": "Medley",
+    "_a_medley_of_merchant_alliance_voyages": "A Medley of Merchant Alliance Voyages",
+    "_a_medley_of_merchant_alliance_voyages_description": "Deliver cargo, capture fauna and find wrecks on this long Merchant Alliance Voyage.",
+    "_a_medley_of_merchant_alliance_voyages_rpc": "Doing a medley of Merchant Alliance voyages",
+    "_an_ashen_medley_of_merchant_alliance_voyages": "An Ashen Medley of Merchant Alliance Voyages",
+    "_an_ashen_medley_of_merchant_alliance_voyages_description": "Deliver cargo, capture fauna and find wrecks on this long Merchant Alliance Voyage in the perilous Devil's Roar.",
+    "_an_ashen_medley_of_merchant_alliance_voyages_rpc": "Doing an ashen medley of Merchant Alliance voyages",
+
+    "_merchant_alliance_raid": "Raid",
+    "_a_raid_on_a_sea_fort_for_merchant_alliance_rpc": "Raiding a sea fort for Merchant Alliance",
+    "_an_adventure_to_a_sunken_shrine_for_merchant_alliance_rpc": "Exploring a sunken shrine for Merchant Alliance",
+    "_a_raid_on_a_sunken_treasury_for_merchant_alliance_rpc": "Raiding a sunken treasury for Merchant Alliance",
+    "_a_duel_with_an_ashen_lord_for_merchant_alliance_rpc": "Fighting an ashen lord for Merchant Alliance",
+    "_a_raid_on_a_skeleton_fort_for_merchant_alliance_rpc": "Raiding a skeleton fort for Merchant Alliance",
+    "_a_battle_with_a_skeleton_fleet_for_merchant_alliance_rpc": "Fighting a skeleton fleet for Merchant Alliance",
+    "_a_battle_with_the_burning_blades_armada_for_merchant_alliance_rpc": "Fighting the Burning Blade Armada for Merchant Alliance",
+
+    "_legend_of_the_veil": "Legend of the Veil",
+    "_legend_of_the_veil_voyage": "Legend of the Veil",
+    "_legend_of_the_veil_voyage_description": "Undertake a Pirate Legend Voyage to restore the mythical Veil of the Ancients.",
+    "_legend_of_the_veil_voyage_rpc": "Restoring the Veil of the Ancients"
+
+
 }

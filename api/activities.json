@@ -388,6 +388,116 @@
         "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/icons/merchant_alliance.png",
         "background_image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/merchant-alliance.svg",
         "categories": [
+            {
+                "id": "merchant_contract",
+                "name": "_merchant_contract",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Merchant_Contract_Voyage_icon.png",
+                "activities": [
+
+                ]
+            },
+            {
+                "id": "cargo_run",
+                "name": "_cargo_run",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Cargo_Run_Voyage_icon.png",
+                "activities": [
+
+                ]
+            },
+            {
+                "id": "lost_shipment",
+                "name": "_lost_shipment",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Lost_Shipment_Voyage_icon.png",
+                "activities": [
+
+                ]
+            },
+            {
+                "id": "merchant_alliance_medley",
+                "name": "_merchant_alliance_medley",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Merchant_Alliance_Medley_Voyage_icon.png",
+                "activities": [
+                    {
+                        "id": "a_medley_of_merchant_alliance_voyages",
+                        "name": "_a_medley_of_merchant_alliance_voyages",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Medley_of_Merchant_Alliance_Voyages.png",
+                        "length": 5,
+                        "description": "_a_medley_of_merchant_alliance_voyages_description",
+                        "rpc": "_a_medley_of_merchant_alliance_voyages_rpc"
+                    },
+                    {
+                        "id": "an_ashen_medley_of_merchant_alliance_voyages",
+                        "name": "_an_ashen_medley_of_merchant_alliance_voyages",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Medley_of_Merchant_Alliance_Voyages.webp",
+                        "length": 5,
+                        "description": "_an_ashen_medley_of_merchant_alliance_voyages_description",
+                        "rpc": "_an_ashen_medley_of_merchant_alliance_voyages_rpc"
+                    }
+                ]
+            },
+            {
+                "id": "merchant_alliance_raid",
+                "name": "_merchant_alliance_raid",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Merchant_Alliance_Raid_Voyage_icon.png",
+                "activities": [
+                    {
+                        "id": "a_raid_on_a_sea_fort_for_merchant_alliance",
+                        "name": "_a_raid_on_a_sea_fort",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Raid_on_a_Sea_Fort.webp",
+                        "length": 3,
+                        "description": "_a_raid_on_a_sea_fort_description",
+                        "rpc": "_a_raid_on_a_sea_fort_for_merchant_alliance_rpc"
+                    },
+                    {
+                        "id": "an_adventure_to_a_sunken_shrine",
+                        "name": "_an_adventure_to_a_sunken_shrine",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Adventure_to_a_Sunken_Shrine.webp",
+                        "length": 4,
+                        "description": "_an_adventure_to_a_sunken_shrine_description",
+                        "rpc": "_an_adventure_to_a_sunken_shrine_for_merchant_alliance_rpc"
+                    },
+                    {
+                        "id": "a_raid_on_a_sunken_treasury",
+                        "name": "_a_raid_on_a_sunken_treasury",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Raid_on_a_Sunken_Treasury.webp",
+                        "length": 4,
+                        "description": "_a_raid_on_a_sunken_treasury_description",
+                        "rpc": "_a_raid_on_a_sunken_treasury_for_merchant_alliance_rpc"
+                    },
+                    {
+                        "id": "a_duel_with_an_ashen_lord",
+                        "name": "_a_duel_with_an_ashen_lord",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Duel_with_an_Ashen_Lord.webp",
+                        "length": 3,
+                        "description": "_a_duel_with_an_ashen_lord_description",
+                        "rpc": "_a_duel_with_an_ashen_lord_for_merchant_alliance_rpc"
+                    },
+                    {
+                        "id": "a_raid_on_a_skeleton_fort",
+                        "name": "_a_raid_on_a_skeleton_fort",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Raid_on_a_Skeleton_Fort.webp",
+                        "length": 4,
+                        "description": "_a_raid_on_a_skeleton_fort_description",
+                        "rpc": "_a_raid_on_a_skeleton_fort_for_merchant_alliance_rpc"
+                    },
+                    {
+                        "id": "a_battle_with_a_skeleton_fleet",
+                        "name": "_a_battle_with_a_skeleton_fleet",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Battle_with_a_Skeleton_Fleet.webp",
+                        "length": 4,
+                        "description": "_a_battle_with_a_skeleton_fleet_description",
+                        "rpc": "_a_battle_with_a_skeleton_fleet_for_merchant_alliance_rpc"
+                    },
+                    {
+                        "id": "a_battle_with_the_burning_blades_armada",
+                        "name": "_a_battle_with_the_burning_blades_armada",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Battle_with_the_Burning_Blades_Armada.webp",
+                        "length": 5,
+                        "description": "_a_battle_with_the_burning_blades_armada_description",
+                        "rpc": "_a_battle_with_the_burning_blades_armada_for_merchant_alliance_rpc"
+                    }
+                ]
+            }
         ]
     },
     {
@@ -404,6 +514,21 @@
         "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/icons/athenas_fortune.png",
         "background_image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/athenas-fortune.svg",
         "categories": [
+            {
+                "id": "legend_of_the_veil",
+                "name": "_legend_of_the_veil",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Legend_of_the_Veil_Voyage_icon.png",
+                "activities": [
+                    {
+                        "id": "legend_of_the_veil_voyage",
+                        "name": "_legend_of_the_veil_voyage",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/The_Legend_of_the_Veil.webp",
+                        "length": 5,
+                        "description": "_legend_of_the_veil_voyage_description",
+                        "rpc": "_legend_of_the_veil_voyage_rpc"
+                    }
+                ]
+            }
         ]
     },
     {
