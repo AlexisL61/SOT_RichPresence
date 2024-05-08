@@ -144,6 +144,69 @@
                         "rpc":"_an_ashen_medley_of_gold_hoarders_voyages_rpc"
                     }
                 ]
+            },
+            {
+                "id": "gold_hoarders_raid",
+                "name": "_gold_hoarders_raid",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Gold_Hoarders_Raid_Voyage_icon.webp",
+                "activities": [
+                    {
+                        "id": "a_raid_on_a_sea_fort_for_gold_hoarders",
+                        "name": "_a_raid_on_a_sea_fort",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Raid_on_a_Sea_Fort.webp",
+                        "length": 3,
+                        "description": "_a_raid_on_a_sea_fort_description",
+                        "rpc": "_a_raid_on_a_sea_fort_for_gold_hoarders_rpc"
+                    },
+                    {
+                        "id": "an_adventure_to_a_sunken_shrine",
+                        "name": "_an_adventure_to_a_sunken_shrine",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Adventure_to_a_Sunken_Shrine.webp",
+                        "length": 4,
+                        "description": "_an_adventure_to_a_sunken_shrine_description",
+                        "rpc": "_an_adventure_to_a_sunken_shrine_for_gold_hoarders_rpc"
+                    },
+                    {
+                        "id": "a_raid_on_a_sunken_treasury",
+                        "name": "_a_raid_on_a_sunken_treasury",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Raid_on_a_Sunken_Treasury.webp",
+                        "length": 4,
+                        "description": "_a_raid_on_a_sunken_treasury_description",
+                        "rpc": "_a_raid_on_a_sunken_treasury_for_gold_hoarders_rpc"
+                    },
+                    {
+                        "id":"a_duel_with_an_ashen_lord",
+                        "name":"_a_duel_with_an_ashen_lord",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Duel_with_an_Ashen_Lord.webp",
+                        "length":3,
+                        "description":"_a_duel_with_an_ashen_lord_description",
+                        "rpc":"_a_duel_with_an_ashen_lord_for_gold_hoarders_rpc"
+                    },
+                    {
+                        "id": "a_raid_on_a_skeleton_fort",
+                        "name": "_a_raid_on_a_skeleton_fort",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Raid_on_a_Skeleton_Fort.webp",
+                        "length": 4,
+                        "description": "_a_raid_on_a_skeleton_fort_description",
+                        "rpc": "_a_raid_on_a_skeleton_fort_for_gold_hoarders_rpc"
+                    },
+                    {
+                        "id": "a_battle_with_a_skeleton_fleet",
+                        "name": "_a_battle_with_a_skeleton_fleet",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Battle_with_a_Skeleton_Fleet.webp",
+                        "length": 4,
+                        "description": "_a_battle_with_a_skeleton_fleet_description",
+                        "rpc": "_a_battle_with_a_skeleton_fleet_for_gold_hoarders_rpc"
+                    },
+                    {
+                        "id": "a_battle_with_the_burning_blades_armada",
+                        "name": "_a_battle_with_the_burning_blades_armada",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Battle_with_the_Burning_Blades_Armada.webp",
+                        "length": 5,
+                        "description": "_a_battle_with_the_burning_blades_armada_description",
+                        "rpc": "_a_battle_with_the_burning_blades_armada_for_gold_hoarders_rpc"
+                    }
+                ]
             }
         ]
     },
@@ -161,10 +224,159 @@
                     {
                         "id":"a_bounty_for_a_skeleton_crew",
                         "name":"_a_bounty_for_a_skeleton_crew",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Bounty_for_a_Skeleton_Crew.png",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Bounty_for_a_Skeleton_Crew.webp",
                         "length":1,
                         "description":"_a_bounty_for_a_skeleton_crew_description",
                         "rpc":"_a_bounty_for_a_skeleton_crew_rpc"
+                    },
+                    {
+                        "id":"a_bounty_for_skeleton_captains",
+                        "name":"_a_bounty_for_skeleton_captains",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Bounty_for_Skeleton_Captains.webp",
+                        "length":2,
+                        "description":"_a_bounty_for_skeleton_captains_description",
+                        "rpc":"_a_bounty_for_skeleton_captains_rpc"
+                    },
+                    {
+                        "id": "a_bounty_for_a_skeleton_lord",
+                        "name": "_a_bounty_for_a_skeleton_lord",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Bounty_for_a_Skeleton_Lord.png",
+                        "length": 3,
+                        "description": "_a_bounty_for_a_skeleton_lord_description",
+                        "rpc": "_a_bounty_for_a_skeleton_lord_rpc"
+                    },
+                    {
+                        "id": "an_ashen_bounty_for_a_skeleton_crew",
+                        "name": "_an_ashen_bounty_for_a_skeleton_crew",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Bounty_for_a_Skeleton_Crew.webp",
+                        "length": 1,
+                        "description": "_an_ashen_bounty_for_a_skeleton_crew_description",
+                        "rpc": "_an_ashen_bounty_for_a_skeleton_crew_rpc"
+                    },
+                    {
+                        "id": "an_ashen_bounty_for_skeleton_captains",
+                        "name": "_an_ashen_bounty_for_skeleton_captains",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Bounty_for_Skeleton_Captains.png",
+                        "length": 2,
+                        "description": "_an_ashen_bounty_for_skeleton_captains_description",
+                        "rpc": "_an_ashen_bounty_for_skeleton_captains_rpc"
+                    },
+                    {
+                        "id": "an_ashen_bounty_for_a_skeleton_lord",
+                        "name": "_an_ashen_bounty_for_a_skeleton_lord",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Bounty_for_a_Skeleton_Lord.png",
+                        "length": 3,
+                        "description": "_an_ashen_bounty_for_a_skeleton_lord_description",
+                        "rpc": "_an_ashen_bounty_for_a_skeleton_lord_rpc"
+                    }
+                ]
+            },
+            {
+                "id": "ghost_ship_battle",
+                "name": "_ghost_ship_battle",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Ghost_Ship_Battle_Voyage_icon.png",
+                "activities":[
+                    {
+                        "id": "a_battle_with_a_ghost_armada",
+                        "name": "_a_battle_with_a_ghost_armada",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Battle_with_a_Ghost_Armada.webp",
+                        "length": 4,
+                        "description": "_a_battle_with_a_ghost_armada_description",
+                        "rpc": "_a_battle_with_a_ghost_armada_rpc"
+                    },
+                    {
+                        "id": "an_ashen_battle_with_a_ghost_armada",
+                        "name": "_an_ashen_battle_with_a_ghost_armada",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Battle_with_a_Ghost_Armada.png",
+                        "length": 4,
+                        "description": "_an_ashen_battle_with_a_ghost_armada_description",
+                        "rpc": "_an_ashen_battle_with_a_ghost_armada_rpc"
+                    }
+                ]   
+            },
+            {
+                "id": "order_of_souls_medley",
+                "name": "_order_of_souls_medley",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Order_of_Souls_Medley_Voyage_icon.png",
+                "activities": [
+                    {
+                        "id": "a_medley_of_order_of_souls_voyages",
+                        "name": "_a_medley_of_order_of_souls_voyages",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Medley_of_Order_of_Souls_Voyages.webp",
+                        "length": 5,
+                        "description": "_a_medley_of_order_of_souls_voyages_description",
+                        "rpc": "_a_medley_of_order_of_souls_voyages_rpc"
+                    },
+                    {
+                        "id": "an_ashen_medley_of_order_of_souls_voyages",
+                        "name": "_an_ashen_medley_of_order_of_souls_voyages",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Medley_of_Order_of_Souls_Voyages.webp",
+                        "length": 5,
+                        "description": "_an_ashen_medley_of_order_of_souls_voyages_description",
+                        "rpc": "_an_ashen_medley_of_order_of_souls_voyages_rpc"
+                    }
+                ]
+            },
+            {
+                "id": "order_of_souls_raid",
+                "name": "_order_of_souls_raid",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Order_of_Souls_Raid_Voyage_icon.png",
+                "activities": [
+                    {
+                        "id": "a_raid_on_a_sea_fort_for_order_of_souls",
+                        "name": "_a_raid_on_a_sea_fort",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Raid_on_a_Sea_Fort.webp",
+                        "length": 3,
+                        "description": "_a_raid_on_a_sea_fort_description",
+                        "rpc": "_a_raid_on_a_sea_fort_for_order_of_souls_rpc"
+                    },
+                    {
+                        "id": "an_adventure_to_a_sunken_shrine",
+                        "name": "_an_adventure_to_a_sunken_shrine",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Adventure_to_a_Sunken_Shrine.webp",
+                        "length": 4,
+                        "description": "_an_adventure_to_a_sunken_shrine_description",
+                        "rpc": "_an_adventure_to_a_sunken_shrine_for_order_of_souls_rpc"
+                    },
+                    {
+                        "id": "a_raid_on_a_sunken_treasury",
+                        "name": "_a_raid_on_a_sunken_treasury",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Raid_on_a_Sunken_Treasury.webp",
+                        "length": 4,
+                        "description": "_a_raid_on_a_sunken_treasury_description",
+                        "rpc": "_a_raid_on_a_sunken_treasury_for_order_of_souls_rpc"
+                    },
+                    {
+                        "id": "a_duel_with_an_ashen_lord",
+                        "name": "_a_duel_with_an_ashen_lord",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Duel_with_an_Ashen_Lord.webp",
+                        "length": 3,
+                        "description": "_a_duel_with_an_ashen_lord_description",
+                        "rpc": "_a_duel_with_an_ashen_lord_for_order_of_souls_rpc"
+                    },
+                    {
+                        "id": "a_raid_on_a_skeleton_fort",
+                        "name": "_a_raid_on_a_skeleton_fort",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Raid_on_a_Skeleton_Fort.webp",
+                        "length": 4,
+                        "description": "_a_raid_on_a_skeleton_fort_description",
+                        "rpc": "_a_raid_on_a_skeleton_fort_for_order_of_souls_rpc"
+                    },
+                    {
+                        "id": "a_battle_with_a_skeleton_fleet",
+                        "name": "_a_battle_with_a_skeleton_fleet",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Battle_with_a_Skeleton_Fleet.webp",
+                        "length": 4,
+                        "description": "_a_battle_with_a_skeleton_fleet_description",
+                        "rpc": "_a_battle_with_a_skeleton_fleet_for_order_of_souls_rpc"
+                    },
+                    {
+                        "id": "a_battle_with_the_burning_blades_armada",
+                        "name": "_a_battle_with_the_burning_blades_armada",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Battle_with_the_Burning_Blades_Armada.webp",
+                        "length": 5,
+                        "description": "_a_battle_with_the_burning_blades_armada_description",
+                        "rpc": "_a_battle_with_the_burning_blades_armada_for_order_of_souls_rpc"
                     }
                 ]
             }
