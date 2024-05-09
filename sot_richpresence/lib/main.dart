@@ -15,7 +15,7 @@ void main() async {
   DiscordRPC.initialize();
   runApp(
     EasyLocalization(
-        supportedLocales: [Locale('en'), Locale('fr')],
+        supportedLocales: [Locale('en')],
         path: 'assets/translations',
         fallbackLocale: Locale('en'),
         child: MyApp()),

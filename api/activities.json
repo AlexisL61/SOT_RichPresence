@@ -528,6 +528,29 @@
                         "rpc": "_legend_of_the_veil_voyage_rpc"
                     }
                 ]
+            },
+            {
+                "id": "voyage_of_legends",
+                "name": "_voyage_of_legends",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Voyage_of_Legends_Voyage_icon.png",
+                "activities": [
+                    {
+                        "id": "a_voyage_of_legends",
+                        "name": "_a_voyage_of_legends",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Voyage_of_Legends.webp",
+                        "length": 5,
+                        "description": "_a_voyage_of_legends_description",
+                        "rpc": "_a_voyage_of_legends_rpc"
+                    },
+                    {
+                        "id": "an_ashen_voyage_of_legends",
+                        "name": "_an_ashen_voyage_of_legends",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Voyage_of_Legends.webp",
+                        "length": 5,
+                        "description": "_an_ashen_voyage_of_legends_description",
+                        "rpc": "_an_ashen_voyage_of_legends_rpc"
+                    }
+                ]
             }
         ]
     },

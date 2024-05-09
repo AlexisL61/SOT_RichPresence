@@ -152,7 +152,15 @@
     "_legend_of_the_veil": "Legend of the Veil",
     "_legend_of_the_veil_voyage": "Legend of the Veil",
     "_legend_of_the_veil_voyage_description": "Undertake a Pirate Legend Voyage to restore the mythical Veil of the Ancients.",
-    "_legend_of_the_veil_voyage_rpc": "Restoring the Veil of the Ancients"
+    "_legend_of_the_veil_voyage_rpc": "Restoring the Veil of the Ancients",
+
+    "_voyage_of_legends": "Voyage of Legends",
+    "_a_voyage_of_legends": "A Voyage of Legends",
+    "_a_voyage_of_legends_description": "Embark on a legendary voyage to find an athena chest.",
+    "_a_voyage_of_legends_rpc": "Doing a voyage of legends",
+    "_an_ashen_voyage_of_legends": "An Ashen Voyage of Legends",
+    "_an_ashen_voyage_of_legends_description": "Embark on a legendary voyage to find an ashen athena chest.",
+    "_an_ashen_voyage_of_legends_rpc": "Doing an ashen voyage of legends"
 
 
 }
