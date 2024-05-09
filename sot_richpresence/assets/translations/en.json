@@ -6,4 +6,18 @@
     "_activity":"Activity",
     "_no_activity_selected":"No activity selected",
     "_activity_select_button":"Select an activity"
+
+    "_choose_your_ship":"Choose your ship",
+    "_sloop_name":"Sloop",
+    "_brigantine_name":"Brigantine",
+    "_galleon_name":"Galleon",
+    "_choose_player_number": "Choose the number of players",
+    "_number_of_players": {
+        "one": "{} player",
+        "many": "{} players",
+        "other": "{} players"
+    },
+
+    "_ship_rpc": "{ship} | {players} / {max_players} players",
+    "_ship_rpc_no_activity": "On the sea"
 }
