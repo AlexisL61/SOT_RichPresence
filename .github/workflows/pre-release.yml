@@ -95,7 +95,6 @@ jobs:
          artifacts: 'SOT_RichPresence_Windows.zip,SOT_RichPresence_Linux.zip'
          token: ${{ secrets.GITHUB_TOKEN }}
          tag: ${{ needs.retrievingVersion.outputs.version }}
-         body: ${{ steps.changelog.outputs.changes }}
          prerelease: true
          allowUpdates: true
   
