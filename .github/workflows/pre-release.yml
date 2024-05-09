@@ -41,7 +41,7 @@ jobs:
      - uses: actions/upload-artifact@v3
        with:
           name: build_windows
-          path: ./sot_richpresence/build/windows/runner/Release
+          path: ./sot_richpresence/build/windows/x64/runner/Release
  build_linux:
    runs-on: ubuntu-latest
    needs: retrievingVersion
@@ -76,23 +76,23 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: build_windows
-          path: dist/JackboxUtility_Windows
+          path: dist/SOT_RichPresence_Windows
       - uses: actions/download-artifact@v3
         with:
           name: build_linux
-          path: dist/JackboxUtility_Linux
+          path: dist/SOT_RichPresence_Linux
       - name: Zipping windows release
-        working-directory: dist/JackboxUtility_Windows
+        working-directory: dist/SOT_RichPresence_Windows
         run: |
-          zip -r ../../JackboxUtility_Windows.zip *
+          zip -r ../../SOT_RichPresence_Windows.zip *
       - name: Zipping linux release
-        working-directory: dist/JackboxUtility_Linux
+        working-directory: dist/SOT_RichPresence_Linux
         run: |
-          zip -r ../../JackboxUtility_Linux.zip *
+          zip -r ../../SOT_RichPresence_Linux.zip *
       - name: Upload release onto Github
         uses: ncipollo/release-action@v1
         with:
-         artifacts: 'JackboxUtility_Windows.zip,JackboxUtility_Linux.zip,JackboxUtility_Linux_Light.zip'
+         artifacts: 'SOT_RichPresence_Windows.zip,SOT_RichPresence_Linux.zip'
          token: ${{ secrets.GITHUB_TOKEN }}
          tag: ${{ needs.retrievingVersion.outputs.version }}
          body: ${{ steps.changelog.outputs.changes }}
