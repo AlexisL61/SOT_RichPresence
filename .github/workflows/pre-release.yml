@@ -21,7 +21,7 @@ jobs:
       uses: rlespinasse/git-commit-data-action@v1
     - name: Retrieve Release Version
       id: versionstep
-      working-directory: jackbox_patcher
+      working-directory: sot_richpresence
       run: |
          DATE=$(date +%s)
          VERSION=$(more pubspec.yaml | grep version: | cut -d ' ' -f2)
@@ -37,12 +37,12 @@ jobs:
         flutter-version: '3.19.6'
         channel: 'stable'
      - name: Build windows
-       working-directory: ./jackbox_patcher
+       working-directory: ./sot_richpresence
        run: flutter build windows --build-name ${{ needs.retrievingVersion.outputs.version }} -t ./lib/main_beta.dart
      - uses: actions/upload-artifact@v3
        with:
           name: build_windows
-          path: ./jackbox_patcher/build/windows/runner/Release
+          path: ./sot_richpresence/build/windows/runner/Release
  build_linux:
    runs-on: ubuntu-latest
    needs: retrievingVersion
@@ -58,7 +58,7 @@ jobs:
      - uses: actions/upload-artifact@v3
        with:
           name: build_linux
-          path: ./jackbox_patcher/build/linux/x64/release/bundle
+          path: ./sot_richpresence/build/linux/x64/release/bundle
  upload:
     runs-on: ubuntu-latest
     needs: 
