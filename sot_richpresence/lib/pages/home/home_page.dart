@@ -1,7 +1,10 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:fluent_ui/fluent_ui.dart';
-import 'package:sot_richpresence/components/background/background.dart';
+import 'package:sot_richpresence/components/buttons/icon_button.dart';
+import 'package:sot_richpresence/components/navigation/naviagtion_view.dart';
 import 'package:sot_richpresence/components/panels/large_panel.dart';
+import 'package:sot_richpresence/components/separator/separator.dart';
+import 'package:sot_richpresence/components/texts/styles.dart';
 import 'package:sot_richpresence/models/activities/activity.dart';
 import 'package:sot_richpresence/models/ship/driven_ship.dart';
 import 'package:sot_richpresence/models/user_data/user_data.dart';
@@ -25,24 +28,45 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return NavigationView(
-      content: SotBackground(
-          child: Center(
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Padding(
-              padding: EdgeInsets.all(8.0),
-              child: _buildShipPanel(),
+    return SotNavigationView(
+      content: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(32.0),
+            child: _buildUpperPanel(),
+          ),
+          Expanded(
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Padding(
+                  padding: EdgeInsets.all(8.0),
+                  child: _buildShipPanel(),
+                ),
+                Padding(
+                  padding: EdgeInsets.all(8.0),
+                  child: _buildActivityPanel(),
+                ),
+              ],
             ),
-            Padding(
-              padding: EdgeInsets.all(8.0),
-              child: _buildActivityPanel(),
-            ),
-          ],
-        ),
-      )),
+          ),
+          _buildBottomPanel()
+        ],
+      ),
     );
+  }
+
+  Widget _buildUpperPanel() {
+    return Column(children: [
+      Text(tr("_app_title"), style: SotTextStyles.mediumWhite),
+      SizedBox(height: 20),
+      Separator(icon: "sloop"),
+      SizedBox(height: 40),
+    ]);
+  }
+
+  Widget _buildBottomPanel() {
+    return SotIconButton(onPressed: () {}, icon: FluentIcons.heart);
   }
 
   Widget _buildShipPanel() {
@@ -53,10 +77,14 @@ class _HomePageState extends State<HomePage> {
         title: tr("_ship"),
         description: drivenShip == null
             ? tr("_no_ship_selected")
-            : tr("_${drivenShip.name}_name") + " - " + drivenShip.players.toString() + " joueurs",
+            : tr("_${drivenShip.name}_name") +
+                " - " +
+                drivenShip.players.toString() +
+                " joueurs",
         actionText: tr("_ship_select_button"),
         action: () async {
-          DrivenShip? drivenShip = await Navigator.pushNamed(context, "/choose_ship") as DrivenShip?;
+          DrivenShip? drivenShip =
+              await Navigator.pushNamed(context, "/choose_ship") as DrivenShip?;
           if (drivenShip != null) {
             controller.setDrivenShip(drivenShip);
             setState(() {});
@@ -70,10 +98,14 @@ class _HomePageState extends State<HomePage> {
         image: AssetImage("assets/png/choose-activity.jpg"),
         child: SizedBox(height: 200, width: 400),
         title: tr("_activity"),
-        description: selectedActivity == null ? tr("_no_activity_selected") : onlineTr(selectedActivity.name),
+        description: selectedActivity == null
+            ? tr("_no_activity_selected")
+            : onlineTr(selectedActivity.name),
         actionText: tr("_activity_select_button"),
         action: () async {
-          Activity? selectedActivity = await Navigator.pushNamed(context, "/choose_activity_company") as Activity?;
+          Activity? selectedActivity =
+              await Navigator.pushNamed(context, "/choose_activity_company")
+                  as Activity?;
           if (selectedActivity != null) {
             controller.setActivity(selectedActivity);
             setState(() {});

@@ -1,6 +1,7 @@
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:sot_richpresence/components/colors/colors.dart';
+import 'package:sot_richpresence/components/texts/styles.dart';
 
 class SmallPanel extends StatefulWidget {
   final ImageProvider image;
@@ -29,8 +30,8 @@ class _SmallPanelState extends State<SmallPanel> {
         Padding(padding: EdgeInsets.all(24), child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(widget.title, style: TextStyle(fontSize: 20, color: SotColors.yellow), textAlign: TextAlign.left,),
-            if (widget.description != null) Text(widget.description!, style: TextStyle(fontSize: 24, color: SotColors.white), textAlign: TextAlign.center,),
+            Text(widget.title, style: SotTextStyles.mediumYellow, textAlign: TextAlign.left,),
+            if (widget.description != null) Text(widget.description!, style: SotTextStyles.mediumWhite, textAlign: TextAlign.center,),
             widget.child,
           ],
         ))

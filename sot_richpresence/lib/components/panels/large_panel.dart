@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:sot_richpresence/components/buttons/small_button.dart';
 import 'package:sot_richpresence/components/colors/colors.dart';
+import 'package:sot_richpresence/components/texts/styles.dart';
 
 class LargePanel extends StatefulWidget {
   final ImageProvider image;
@@ -47,13 +48,13 @@ class _LargePanelState extends State<LargePanel> {
             children: [
               Text(
                 widget.title,
-                style: TextStyle(fontSize: 20, color: SotColors.yellow),
+                style: SotTextStyles.mediumYellow,
                 textAlign: TextAlign.left,
               ),
               if (widget.description != null)
                 Text(
                   widget.description!,
-                  style: TextStyle(fontSize: 24, color: SotColors.white),
+                  style: SotTextStyles.mediumWhite,
                   textAlign: TextAlign.center,
                 ),
               widget.child,

@@ -1,4 +1,6 @@
 {
+    "_app_title":"Sea of Thieves Rich Presence",
+
     "_ship":"Navire",
     "_no_ship_selected":"Aucun bateau sélectionné",
     "_ship_select_button":"Sélectionner un bateau",
@@ -7,6 +9,11 @@
     "_no_activity_selected":"Aucune activité sélectionnée",
     "_activity_select_button":"Sélectionner une activité",
 
+    "_activity_select_title":"Sélectionnez une activité",
+    "_company_select_title":"Sélectionnez une société",
+    "_length": "Durée",
+
+    "_back":"Retour",
 
     "_choose_your_ship":"Choisissez votre navire",
     "_sloop_name":"Sloop",
