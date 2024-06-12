@@ -1,5 +1,7 @@
 {
     "_app_title":"Sea of Thieves Rich Presence",
+    "_app_description":"Une application open-source pour afficher votre activité Sea of Thieves sur Discord.",
+    "_app_developer":"Créé par {developer}",
 
     "_ship":"Navire",
     "_no_ship_selected":"Aucun bateau sélectionné",

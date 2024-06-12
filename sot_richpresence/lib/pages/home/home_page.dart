@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:sot_richpresence/components/buttons/icon_button.dart';
+import 'package:sot_richpresence/components/dialogs/credit_dialog.dart';
 import 'package:sot_richpresence/components/navigation/naviagtion_view.dart';
 import 'package:sot_richpresence/components/panels/large_panel.dart';
 import 'package:sot_richpresence/components/separator/separator.dart';
@@ -66,37 +67,46 @@ class _HomePageState extends State<HomePage> {
   }
 
   Widget _buildBottomPanel() {
-    return SotIconButton(onPressed: () {}, icon: FluentIcons.heart);
+    return SotIconButton(
+        onPressed: () {
+          showDialog(context: context, builder: (context) => CreditDialog(), barrierDismissible: true);
+        },
+        icon: FluentIcons.heart);
   }
 
   Widget _buildShipPanel() {
     DrivenShip? drivenShip = UserData().drivenShip;
-    return LargePanel(
-        image: AssetImage("assets/png/choose-ship.jpg"),
-        child: SizedBox(height: 200, width: 400),
-        title: tr("_ship"),
-        description: drivenShip == null
-            ? tr("_no_ship_selected")
-            : tr("_${drivenShip.name}_name") +
-                " - " +
-                drivenShip.players.toString() +
-                " joueurs",
-        actionText: tr("_ship_select_button"),
-        action: () async {
-          DrivenShip? drivenShip =
-              await Navigator.pushNamed(context, "/choose_ship") as DrivenShip?;
-          if (drivenShip != null) {
-            controller.setDrivenShip(drivenShip);
-            setState(() {});
-          }
-        });
+    return SizedBox(
+      height:400,
+      child: LargePanel(
+          image: AssetImage("assets/png/choose-ship.jpg"),
+          child: Expanded(child:SizedBox(width: 400)),
+          title: tr("_ship"),
+          description: drivenShip == null
+              ? tr("_no_ship_selected")
+              : tr("_${drivenShip.name}_name") +
+                  " - " +
+                  drivenShip.players.toString() +
+                  " joueurs",
+          actionText: tr("_ship_select_button"),
+          action: () async {
+            DrivenShip? drivenShip =
+                await Navigator.pushNamed(context, "/choose_ship") as DrivenShip?;
+            if (drivenShip != null) {
+              controller.setDrivenShip(drivenShip);
+              setState(() {});
+            }
+          }),
+    );
   }
 
   Widget _buildActivityPanel() {
     Activity? selectedActivity = UserData().activity;
-    return LargePanel(
+    return SizedBox(
+      height:400,
+      child: LargePanel(
         image: AssetImage("assets/png/choose-activity.jpg"),
-        child: SizedBox(height: 200, width: 400),
+        child: Expanded(child:SizedBox(width: 400)),
         title: tr("_activity"),
         description: selectedActivity == null
             ? tr("_no_activity_selected")
@@ -110,6 +120,6 @@ class _HomePageState extends State<HomePage> {
             controller.setActivity(selectedActivity);
             setState(() {});
           }
-        });
+        }));
   }
 }

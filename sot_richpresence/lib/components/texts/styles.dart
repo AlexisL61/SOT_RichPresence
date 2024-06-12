@@ -7,6 +7,8 @@ class SotTextStyles {
   static TextStyle smallWhite =
       const TextStyle(fontSize: 16, color: Colors.white);
 
-  static TextStyle mediumYellow =
+  static TextStyle smallYellow =
       const TextStyle(fontSize: 20, color: SotColors.yellow);
+  static TextStyle mediumYellow =
+      const TextStyle(fontSize: 26, color: SotColors.yellow);
 }

@@ -1,5 +1,7 @@
 {
     "_app_title": "Sea of Thieves Rich Presence",
+    "_app_description": "An open-source rich presence app for Sea of Thieves",
+    "_app_developer": "Made by {developer}",
 
     "_ship":"Ship",
     "_no_ship_selected":"No ship selected",
