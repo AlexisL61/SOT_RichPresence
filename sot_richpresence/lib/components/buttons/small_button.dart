@@ -1,6 +1,6 @@
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:sot_richpresence/components/colors/colors.dart';
+import 'package:sot_richpresence/components/texts/styles.dart';
 
 class SmallButton extends StatefulWidget {
   final void Function() onPressed;
@@ -41,7 +41,7 @@ class _SmallButtonState extends State<SmallButton> {
             padding: const EdgeInsets.all(16.0),
             child: Text(
               widget.text,
-              style: TextStyle(color: Colors.white, fontSize: 16),
+              style: SotTextStyles.smallWhite,
               textAlign: TextAlign.center,
             ),
           ),

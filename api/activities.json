@@ -556,10 +556,25 @@
     },
     {
         "id":"hunters_call",
-        "name":"hunters_call",
+        "name":"_hunters_call",
         "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/icons/hunters_call.webp",
         "background_image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/hunters-call.svg",
         "categories": [
+            {
+                "id": "fishing_category",
+                "name": "_fishing_category",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Fishing_Voyage_icon.png",
+                "activities": [
+                    {
+                        "id": "a_fishing_voyage",
+                        "name": "_a_fishing_voyage",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Fishing.webp",
+                        "length": 1,
+                        "description": "_a_fishing_voyage_description",
+                        "rpc": "_a_fishing_voyage_rpc"
+                    }
+                ]
+            }
         ]
     }
 ]

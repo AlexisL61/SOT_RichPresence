@@ -1,8 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:fluent_ui/fluent_ui.dart';
-import 'package:sot_richpresence/components/background/background.dart';
 import 'package:sot_richpresence/components/buttons/small_button.dart';
+import 'package:sot_richpresence/components/navigation/naviagtion_view.dart';
 import 'package:sot_richpresence/components/separator/separator.dart';
+import 'package:sot_richpresence/components/texts/styles.dart';
 import 'package:sot_richpresence/models/ship/ship.dart';
 
 class ChooseShipPlayerRoute extends StatelessWidget {
@@ -26,19 +27,21 @@ class ChooseShipPlayersPage extends StatefulWidget {
 class _ChooseShipPlayersPageState extends State<ChooseShipPlayersPage> {
   @override
   Widget build(BuildContext context) {
-    return NavigationView(
-        content: SotBackground(
-            child: Center(
-                child: Column(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        Text(tr("_choose_player_number"), style: TextStyle(fontSize: 24, color: Colors.white)),
-        SizedBox(height: 20),
-        Separator(icon: "sloop"),
-        SizedBox(height: 40),
-        Row(mainAxisAlignment: MainAxisAlignment.center, children: _buildPlayersChoice()),
-      ],
-    ))));
+    return SotNavigationView(
+        showBackButton: true,
+        content: Center(
+            child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(tr("_choose_player_number"), style: SotTextStyles.mediumWhite),
+            SizedBox(height: 20),
+            Separator(icon: "sloop"),
+            SizedBox(height: 40),
+            Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: _buildPlayersChoice()),
+          ],
+        )));
   }
 
   List<Widget> _buildPlayersChoice() {
@@ -47,11 +50,10 @@ class _ChooseShipPlayersPageState extends State<ChooseShipPlayersPage> {
       players.add(Padding(
           padding: const EdgeInsets.all(8.0),
           child: SmallButton(
-            onPressed: () {
-              Navigator.pop(context, i);
-            },
-            text: plural("_number_of_players",i)
-          )));
+              onPressed: () {
+                Navigator.pop(context, i);
+              },
+              text: plural("_number_of_players", i))));
     }
     return players;
   }

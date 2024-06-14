@@ -1,5 +1,6 @@
 import 'package:fluent_ui/fluent_ui.dart';
-import 'package:sot_richpresence/components/background/background.dart';
+import 'package:sot_richpresence/components/navigation/naviagtion_view.dart';
+import 'package:sot_richpresence/components/texts/styles.dart';
 import 'package:sot_richpresence/pages/loading/loading_page_controller.dart';
 
 class LoadingPage extends StatefulWidget {
@@ -21,11 +22,10 @@ class _LoadingPageState extends State<LoadingPage> {
 
   @override
   Widget build(BuildContext context) {
-    return NavigationView(
-      content: SotBackground(
-          child: Center(
-        child: Text("Loading...", style: TextStyle(color: Colors.white)),
-      )),
+    return SotNavigationView(
+      content: Center(
+        child: Text("Loading...", style: SotTextStyles.mediumWhite),
+      ),
     );
   }
 }

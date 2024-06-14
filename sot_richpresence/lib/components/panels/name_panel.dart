@@ -1,6 +1,7 @@
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:sot_richpresence/components/clippers/panel_name_clipper.dart';
+import 'package:sot_richpresence/components/texts/styles.dart';
 
 class NamePanel extends StatefulWidget {
   final String text;
@@ -28,7 +29,7 @@ class _NamePanelState extends State<NamePanel> {
           padding: EdgeInsets.symmetric(horizontal:15, vertical: 20),
           child: Text(
             widget.text,
-            style: TextStyle(fontSize: 16, color: Colors.white),
+            style: SotTextStyles.smallWhite,
             textAlign: TextAlign.center,
           )),
     ]);

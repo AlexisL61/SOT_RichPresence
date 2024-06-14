@@ -4,7 +4,7 @@
     "_merchant_alliance": "Merchant Alliance",
     "_athenas_fortune": "Athena",
     "_reapers_bones": "Reaper's Bones",
-    "_hunter_call": "Hunter's Call",
+    "_hunters_call": "Hunter's Call",
 
     "_a_raid_on_a_sea_fort": "A Raid on a Sea Fort",
     "_a_raid_on_a_sea_fort_description": "Defeat waves of Phantoms and the Fort Captain to claim its Treasury Key and the plunder inside.",
@@ -160,7 +160,10 @@
     "_a_voyage_of_legends_rpc": "Doing a voyage of legends",
     "_an_ashen_voyage_of_legends": "An Ashen Voyage of Legends",
     "_an_ashen_voyage_of_legends_description": "Embark on a legendary voyage to find an ashen athena chest.",
-    "_an_ashen_voyage_of_legends_rpc": "Doing an ashen voyage of legends"
+    "_an_ashen_voyage_of_legends_rpc": "Doing an ashen voyage of legends",
 
-
+    "_fishing_category": "Fishing",
+    "_a_fishing_voyage": "Fishing",
+    "_a_fishing_voyage_description": "Catch fish and deliver them to the Hunter's Call.",
+    "_a_fishing_voyage_rpc": "Catching fish"
 }

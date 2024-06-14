@@ -1,6 +1,8 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:fluent_ui/fluent_ui.dart';
 import 'package:sot_richpresence/components/clippers/activity_clipper.dart';
 import 'package:sot_richpresence/components/colors/colors.dart';
+import 'package:sot_richpresence/components/texts/styles.dart';
 import 'package:sot_richpresence/models/activities/activity.dart';
 import 'package:sot_richpresence/services/translations/translations_service.dart';
 
@@ -32,7 +34,7 @@ class ActivityWidget extends StatelessWidget {
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
                             onlineTr(activity.name),
-                            style: TextStyle(fontSize: 24, color: Colors.white),
+                            style: SotTextStyles.mediumWhite,
                             textAlign: TextAlign.center,
                           ),
                         ),
@@ -43,7 +45,7 @@ class ActivityWidget extends StatelessWidget {
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text(onlineTr(activity.description),
-                              style: TextStyle(fontSize: 16, color: SotColors.white)),
+                              style: SotTextStyles.smallWhite),
                         ),
                       ],
                     ),
@@ -72,7 +74,7 @@ class ActivityWidget extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Text("Length ", style: TextStyle(fontSize: 16, color: SotColors.white)),
+        Text("${tr("_length")} ", style: SotTextStyles.smallWhite),
         SizedBox(width: 5),
         ...widgets.expand((element) => [element, SizedBox(width: 5)]).toList()
       ],
