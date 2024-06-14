@@ -3,7 +3,6 @@ import 'package:fluent_ui/fluent_ui.dart';
 import 'package:sot_richpresence/components/buttons/icon_button.dart';
 import 'package:sot_richpresence/components/dialogs/sot_dialog.dart';
 import 'package:sot_richpresence/components/texts/styles.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class CreditDialog extends StatelessWidget {
