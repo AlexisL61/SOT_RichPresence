@@ -151,7 +151,7 @@
                 "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Gold_Hoarders_Raid_Voyage_icon.webp",
                 "activities": [
                     {
-                        "id": "a_raid_on_a_sea_fort_for_gold_hoarders",
+                        "id": "a_raid_on_a_sea_fort",
                         "name": "_a_raid_on_a_sea_fort",
                         "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Raid_on_a_Sea_Fort.webp",
                         "length": 3,
@@ -323,7 +323,7 @@
                 "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Order_of_Souls_Raid_Voyage_icon.png",
                 "activities": [
                     {
-                        "id": "a_raid_on_a_sea_fort_for_order_of_souls",
+                        "id": "a_raid_on_a_sea_fort",
                         "name": "_a_raid_on_a_sea_fort",
                         "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Raid_on_a_Sea_Fort.webp",
                         "length": 3,
@@ -441,7 +441,7 @@
                 "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Merchant_Alliance_Raid_Voyage_icon.png",
                 "activities": [
                     {
-                        "id": "a_raid_on_a_sea_fort_for_merchant_alliance",
+                        "id": "a_raid_on_a_sea_fort",
                         "name": "_a_raid_on_a_sea_fort",
                         "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Raid_on_a_Sea_Fort.webp",
                         "length": 3,
