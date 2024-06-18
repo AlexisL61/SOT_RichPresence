@@ -700,5 +700,202 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "bilge_rats",
+        "name": "_bilge_rats",
+        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/icons/bilge_rats.png",
+        "background_image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/bilge-rats.svg",
+        "categories": [
+            
+        ]
+    },
+    {
+        "id": "tall_tales",
+        "name": "_tall_tales",
+        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/icons/tall_tales.png",
+        "background_image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/tall-tales.svg",
+        "categories": [
+            {
+                "id": "the_legend_of_monkey_island",
+                "name": "_the_legend_of_monkey_island",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/The_Legend_of_Monkey_Island_icon.png",
+                "activities": [
+                    {
+                        "id": "the_journey_to_melee_island",
+                        "name": "_the_journey_to_melee_island",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/The_Journey_to_Melee_Island.webp",
+                        "length": 5,
+                        "description": "_the_journey_to_melee_island_description",
+                        "rpc": "_the_journey_to_melee_island_rpc"
+                    },
+                    {
+                        "id": "the_quest_for_guybrush",
+                        "name": "_the_quest_for_guybrush",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/The_Quest_for_Guybrush.webp",
+                        "length": 5,
+                        "description": "_the_quest_for_guybrush_description",
+                        "rpc": "_the_quest_for_guybrush_rpc"
+                    },
+                    {
+                        "id": "the_lair_of_lechuck",
+                        "name": "_the_lair_of_lechuck",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/The_Lair_of_LeChuck.webp",
+                        "length": 5,
+                        "description": "_the_lair_of_lechuck_description",
+                        "rpc": "_the_lair_of_lechuck_rpc"
+                    }
+                ]
+            },
+            {
+                "id": "a_pirates_life",
+                "name": "_a_pirates_life",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/A_Pirates_Life_icon.png",
+                "activities": [
+                    {
+                        "id": "a_pirates_life_tall_tale",
+                        "name": "_a_pirates_life_tall_tale",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Life.png",
+                        "length": 5,
+                        "description": "_a_pirates_life_tall_tale_description",
+                        "rpc": "_a_pirates_life_tall_tale_rpc"
+                    },
+                    {
+                        "id": "the_sunken_pearl",
+                        "name": "_the_sunken_pearl",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/The_Sunken_Pearl.png",
+                        "length": 5,
+                        "description": "_the_sunken_pearl_description",
+                        "rpc": "_the_sunken_pearl_rpc"
+                    },
+                    {
+                        "id": "captains_of_the_damned",
+                        "name": "_captains_of_the_damned",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Captains_of_the_Damned.png",
+                        "length": 5,
+                        "description": "_captains_of_the_damned_description",
+                        "rpc": "_captains_of_the_damned_rpc"
+                    },
+                    {
+                        "id": "dark_brethren",
+                        "name": "_dark_brethren",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Dark_Brethren.png",
+                        "length": 5,
+                        "description": "_dark_brethren_description",
+                        "rpc": "_dark_brethren_rpc"
+                    },
+                    {
+                        "id": "lords_of_the_sea",
+                        "name": "_lords_of_the_sea",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Lords_of_the_Sea.png",
+                        "length": 5,
+                        "description": "_lords_of_the_sea_description",
+                        "rpc": "_lords_of_the_sea_rpc"
+                    }
+                ]
+            },
+            {
+                "id": "ashen_age",
+                "name": "_ashen_age",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Ashen_Age_icon.png",
+                "activities": [
+                    {
+                        "id": "the_seabound_soul",
+                        "name": "_the_seabound_soul",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/The_Seabound_Soul.jpg",
+                        "length": 5,
+                        "description": "_the_seabound_soul_description",
+                        "rpc": "_the_seabound_soul_rpc"
+                    },
+                    {
+                        "id": "heart_of_fire",
+                        "name": "_heart_of_fire",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Heart_of_Fire.jpg",
+                        "length": 5,
+                        "description": "_heart_of_fire_description",
+                        "rpc": "_heart_of_fire_rpc"
+                    }
+                ]
+            },
+            {
+                "id": "shores_of_gold",
+                "name": "_shores_of_gold",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Shores_of_Gold_icon.png",
+                "activities": [
+                    {
+                        "id": "the_shroudbreaker",
+                        "name": "_the_shroudbreaker",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/The_Shroudbreaker.webp",
+                        "length": 5,
+                        "description": "_the_shroudbreaker_description",
+                        "rpc": "_the_shroudbreaker_rpc"
+                    },
+                    {
+                        "id": "the_cursed_rogue",
+                        "name": "_the_cursed_rogue",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/The_Cursed_Rogue.png",
+                        "length": 5,
+                        "description": "_the_cursed_rogue_description",
+                        "rpc": "_the_cursed_rogue_rpc"
+                    },
+                    {
+                        "id": "the_legendary_storyteller",
+                        "name": "_the_legendary_storyteller",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/The_Legendary_Storyteller.png",
+                        "length": 5,
+                        "description": "_the_legendary_storyteller_description",
+                        "rpc": "_the_legendary_storyteller_rpc"
+                    },
+                    {
+                        "id": "stars_of_a_thief",
+                        "name": "_stars_of_a_thief",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Stars_of_a_Thief.webp",
+                        "length": 5,
+                        "description": "_stars_of_a_thief_description",
+                        "rpc": "_stars_of_a_thief_rpc"
+                    },
+                    {
+                        "id": "wild_rose",
+                        "name": "_wild_rose",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Wild_Rose.png",
+                        "length": 5,
+                        "description": "_wild_rose_description",
+                        "rpc": "_wild_rose_rpc"
+                    },
+                    {
+                        "id": "the_art_of_the_trickster",
+                        "name": "_the_art_of_the_trickster",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/The_Art_of_the_Trickster.png",
+                        "length": 5,
+                        "description": "_the_art_of_the_trickster_description",
+                        "rpc": "_the_art_of_the_trickster_rpc"
+                    },
+                    {
+                        "id": "the_fate_of_the_morningstar",
+                        "name": "_the_fate_of_the_morningstar",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/The_Fate_of_the_Morningstar.png",
+                        "length": 5,
+                        "description": "_the_fate_of_the_morningstar_description",
+                        "rpc": "_the_fate_of_the_morningstar_rpc"
+                    },
+                    {
+                        "id": "revenge_of_the_morningstar",
+                        "name": "_revenge_of_the_morningstar",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Revenge_of_the_Morningstar.png",
+                        "length": 5,
+                        "description": "_revenge_of_the_morningstar_description",
+                        "rpc": "_revenge_of_the_morningstar_rpc"
+                    },
+                    {
+                        "id": "shores_of_gold",
+                        "name": "_shores_of_gold",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Shores_of_Gold.webp",
+                        "length": 5,
+                        "description": "_shores_of_gold_description",
+                        "rpc": "_shores_of_gold_rpc"
+                    }
+                ]
+            }
+        ]
     }
 ]
