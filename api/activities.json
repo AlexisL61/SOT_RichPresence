@@ -740,7 +740,7 @@
                     {
                         "id": "the_lair_of_lechuck",
                         "name": "_the_lair_of_lechuck",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/The_Lair_of_LeChuck.webp",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/The_Lair_of_LeChuck.png",
                         "length": 5,
                         "description": "_the_lair_of_lechuck_description",
                         "rpc": "_the_lair_of_lechuck_rpc"
@@ -802,7 +802,7 @@
                     {
                         "id": "the_seabound_soul",
                         "name": "_the_seabound_soul",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/The_Seabound_Soul.jpg",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Seabound_Soul.jpg",
                         "length": 5,
                         "description": "_the_seabound_soul_description",
                         "rpc": "_the_seabound_soul_rpc"
@@ -887,12 +887,12 @@
                         "rpc": "_revenge_of_the_morningstar_rpc"
                     },
                     {
-                        "id": "shores_of_gold",
-                        "name": "_shores_of_gold",
+                        "id": "shores_of_gold_tall_tale",
+                        "name": "_shores_of_gold_tall_tale",
                         "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Shores_of_Gold.webp",
                         "length": 5,
-                        "description": "_shores_of_gold_description",
-                        "rpc": "_shores_of_gold_rpc"
+                        "description": "_shores_of_gold_tall_tale_description",
+                        "rpc": "_shores_of_gold_tall_tale_rpc"
                     }
                 ]
             }

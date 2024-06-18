@@ -1,5 +1,6 @@
 import 'package:dart_discord_rpc/dart_discord_rpc.dart';
 import 'package:easy_localization/easy_localization.dart';
+import 'package:sot_richpresence/models/ship/ship_type.dart';
 import 'package:sot_richpresence/models/user_data/user_data.dart';
 import 'package:sot_richpresence/services/translations/translations_service.dart';
 
@@ -21,7 +22,7 @@ class RichPresenceService {
         "players": UserData().drivenShip!.players.toString(),
         "max_players": UserData().drivenShip!.maxPlayers.toString()
       }),
-      smallImageKey: UserData().drivenShip!.name,
+      smallImageKey: UserData().drivenShip!.type.image,
       smallImageText: tr("_${UserData().drivenShip!.name}_name"),
       startTimeStamp: DateTime.now().millisecondsSinceEpoch,
     ));
@@ -35,9 +36,9 @@ class RichPresenceService {
         "players": UserData().drivenShip!.players.toString(),
         "max_players": UserData().drivenShip!.maxPlayers.toString(),
       }),
-      smallImageKey: UserData().drivenShip!.name,
+      smallImageKey: UserData().drivenShip!.type.image,
       smallImageText: tr("_${UserData().drivenShip!.name}_name"),
-      largeImageKey: UserData().activity!.id,
+      largeImageKey: UserData().activity!.image,
       largeImageText: onlineTr(UserData().activity!.name),
       startTimeStamp: DateTime.now().millisecondsSinceEpoch,
     ));
@@ -46,7 +47,7 @@ class RichPresenceService {
   static void rpcForActivityOnly() {
     _discordRPC.updatePresence(DiscordPresence(
       details: onlineTr(UserData().activity!.rpc),
-      largeImageKey: UserData().activity!.id,
+      largeImageKey: UserData().activity!.image,
       largeImageText: onlineTr(UserData().activity!.name),
       startTimeStamp: DateTime.now().millisecondsSinceEpoch,
     ));
