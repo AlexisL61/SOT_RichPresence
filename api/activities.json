@@ -419,7 +419,7 @@
                     {
                         "id": "a_founders_cargo_run",
                         "name": "_a_founders_cargo_run",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Cargo_Run.png",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Cargo_Run.webp",
                         "length": 3,
                         "description": "_a_founders_cargo_run_description",
                         "rpc": "_a_founders_cargo_run_rpc"
@@ -427,7 +427,7 @@
                     {
                         "id": "an_executives_cargo_run",
                         "name": "_an_executives_cargo_run",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Cargo_Run.png",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Cargo_Run.webp",
                         "length": 4,
                         "description": "_an_executives_cargo_run_description",
                         "rpc": "_an_executives_cargo_run_rpc"
@@ -435,7 +435,7 @@
                     {
                         "id": "an_ashen_founders_cargo_run",
                         "name": "_an_ashen_founders_cargo_run",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Cargo_Run.webp",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Cargo_Run.png",
                         "length": 3,
                         "description": "_an_ashen_founders_cargo_run_description",
                         "rpc": "_an_ashen_founders_cargo_run_rpc"
@@ -443,7 +443,7 @@
                     {
                         "id": "an_ashen_executives_cargo_run",
                         "name": "_an_ashen_executives_cargo_run",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Cargo_Run.webp",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Cargo_Run.png",
                         "length": 4,
                         "description": "_an_ashen_executives_cargo_run_description",
                         "rpc": "_an_ashen_executives_cargo_run_rpc"
@@ -458,7 +458,7 @@
                     {
                         "id": "an_executives_lost_shipment",
                         "name": "_an_executives_lost_shipment",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Lost_Shipment.png",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Lost_Shipment.webp",
                         "length": 4,
                         "description": "_an_executives_lost_shipment_description",
                         "rpc": "_an_executives_lost_shipment_rpc"
