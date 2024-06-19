@@ -68,7 +68,7 @@
                     {
                         "id":"an_ashen_pirates_riddle_quest",
                         "name":"_an_ashen_pirates_riddle_quest",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Pirates_Riddle_Quest.png",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Pirates_Riddle_Quest.webp",
                         "length":2,
                         "description":"_an_ashen_pirates_riddle_quest_description",
                         "rpc":"_an_ashen_pirates_riddle_quest_rpc"
@@ -396,7 +396,7 @@
                     {
                         "id": "a_founders_merchant_contract",
                         "name": "_a_founders_merchant_contract",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Merchant_Contract.png",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Founders_Merchant_Contract.png",
                         "length": 3,
                         "description": "_a_founders_merchant_contract_description",
                         "rpc": "_a_founders_merchant_contract_rpc"
@@ -404,7 +404,7 @@
                     {
                         "id": "an_executives_merchant_contract",
                         "name": "_an_executives_merchant_contract",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Merchant_Contract.png",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Executives_Merchant_Contract.png",
                         "length": 4,
                         "description": "_an_executives_merchant_contract_description",
                         "rpc": "_an_executives_merchant_contract_rpc"
@@ -419,7 +419,7 @@
                     {
                         "id": "a_founders_cargo_run",
                         "name": "_a_founders_cargo_run",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Cargo_Run.webp",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Founders_Cargo_Run.png",
                         "length": 3,
                         "description": "_a_founders_cargo_run_description",
                         "rpc": "_a_founders_cargo_run_rpc"
@@ -427,7 +427,7 @@
                     {
                         "id": "an_executives_cargo_run",
                         "name": "_an_executives_cargo_run",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Cargo_Run.webp",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Founders_Cargo_Run.png",
                         "length": 4,
                         "description": "_an_executives_cargo_run_description",
                         "rpc": "_an_executives_cargo_run_rpc"
@@ -435,7 +435,7 @@
                     {
                         "id": "an_ashen_founders_cargo_run",
                         "name": "_an_ashen_founders_cargo_run",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Cargo_Run.png",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Founders_Cargo_Run.png",
                         "length": 3,
                         "description": "_an_ashen_founders_cargo_run_description",
                         "rpc": "_an_ashen_founders_cargo_run_rpc"
@@ -443,7 +443,7 @@
                     {
                         "id": "an_ashen_executives_cargo_run",
                         "name": "_an_ashen_executives_cargo_run",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Cargo_Run.png",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Founders_Cargo_Run.png",
                         "length": 4,
                         "description": "_an_ashen_executives_cargo_run_description",
                         "rpc": "_an_ashen_executives_cargo_run_rpc"
@@ -458,7 +458,7 @@
                     {
                         "id": "an_executives_lost_shipment",
                         "name": "_an_executives_lost_shipment",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Lost_Shipment.webp",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Executives_Lost_Shipment.png",
                         "length": 4,
                         "description": "_an_executives_lost_shipment_description",
                         "rpc": "_an_executives_lost_shipment_rpc"
@@ -466,7 +466,7 @@
                     {
                         "id": "an_ashen_executives_lost_shipment",
                         "name": "_an_ashen_executives_lost_shipment",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Lost_Shipment.webp",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Executives_Lost_Shipment.webp",
                         "length": 4,
                         "description": "_an_ashen_executives_lost_shipment_description",
                         "rpc": "_an_ashen_executives_lost_shipment_rpc"
@@ -577,8 +577,8 @@
                         "name": "_crew_chase_voyage",
                         "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Crew_Chase.jpg",
                         "length": 5,
-                        "description": "_crew_chase_description",
-                        "rpc": "_crew_chase_rpc"
+                        "description": "_crew_chase_voyage_description",
+                        "rpc": "_crew_chase_voyage_rpc"
                     }
                 ]
             }
