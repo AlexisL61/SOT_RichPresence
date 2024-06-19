@@ -21,7 +21,7 @@
                     {
                         "id":"a_captains_treasure_map",
                         "name":"_a_captains_treasure_map",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Treasure_Map.png",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Captains_Treasure_Map.png",
                         "length":2,
                         "description":"_a_captains_treasure_map_description",
                         "rpc":"_a_captains_treasure_map_rpc"
@@ -37,7 +37,7 @@
                     {
                         "id":"an_ashen_captains_treasure_map",
                         "name":"_an_ashen_captains_treasure_map",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Pirates_Treasure_Map.webp",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Captains_Treasure_Map.webp",
                         "length":2,
                         "description":"_an_ashen_captains_treasure_map_description",
                         "rpc":"_an_ashen_captains_treasure_map_rpc"
@@ -60,7 +60,7 @@
                     {
                         "id":"a_captains_riddle_quest",
                         "name":"_a_captains_riddle_quest",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Riddle_Quest.png",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Captains_Riddle_Quest.png",
                         "length":2,
                         "description":"_a_captains_riddle_quest_description",
                         "rpc":"_a_captains_riddle_quest_rpc"
@@ -68,7 +68,7 @@
                     {
                         "id":"an_ashen_pirates_riddle_quest",
                         "name":"_an_ashen_pirates_riddle_quest",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Captains_Riddle_Quest.png",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Ashen_Pirates_Riddle_Quest.png",
                         "length":2,
                         "description":"_an_ashen_pirates_riddle_quest_description",
                         "rpc":"_an_ashen_pirates_riddle_quest_rpc"
@@ -99,7 +99,7 @@
                     {
                         "id":"a_captains_treasure_vault",
                         "name":"_a_captains_treasure_vault",
-                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Pirates_Treasure_Vault.webp",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Captains_Treasure_Vault.webp",
                         "length":5,
                         "description":"_a_captains_treasure_vault_description",
                         "rpc":"_a_captains_treasure_vault_rpc"
@@ -702,12 +702,12 @@
             {
                 "id": "fishing_category",
                 "name": "_fishing_category",
-                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Fishing_Voyage_icon.png",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Fishing_icon.webp",
                 "activities": [
                     {
                         "id": "a_fishing_voyage",
                         "name": "_a_fishing_voyage",
-                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Fishing.webp",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Fishing.jpg",
                         "length": 1,
                         "description": "_a_fishing_voyage_description",
                         "rpc": "_a_fishing_voyage_rpc"
