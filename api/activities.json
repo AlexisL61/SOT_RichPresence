@@ -567,6 +567,21 @@
         "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/icons/reapers_bones.png",
         "background_image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/reapers-bones.svg",
         "categories": [
+            {
+                "id": "crew_chase",
+                "name": "_crew_chase",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Crew_Chase_icon.png",
+                "activities": [
+                    {
+                        "id": "crew_chase_voyage",
+                        "name": "_crew_chase_voyage",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Crew_Chase.jpg",
+                        "length": 5,
+                        "description": "_crew_chase_description",
+                        "rpc": "_crew_chase_rpc"
+                    }
+                ]
+            }
         ]
     },
     {
@@ -707,7 +722,131 @@
         "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/icons/bilge_rats.png",
         "background_image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/bilge-rats.svg",
         "categories": [
-            
+            {
+                "id": "world_events",
+                "name": "_world_events",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/World_Events_icon.webp",
+                "activities": [
+                    {
+                        "id": "skeleton_fort",
+                        "name": "_skeleton_fort",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Raid_on_a_Skeleton_Fort.webp",
+                        "length": 4,
+                        "description": "_skeleton_fort_description",
+                        "rpc": "_skeleton_fort_rpc"
+                    },
+                    {
+                        "id": "fort_of_fortune",
+                        "name": "_fort_of_fortune",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Fort_of_Fortune.jpg",
+                        "length": 4,
+                        "description": "_fort_of_fortune_description",
+                        "rpc": "_fort_of_fortune_rpc"
+                    },
+                    {
+                        "id": "skeleton_fleet",
+                        "name": "_skeleton_fleet",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Battle_with_a_Skeleton_Fleet.webp",
+                        "length": 4,
+                        "description": "_skeleton_fleet_description",
+                        "rpc": "_skeleton_fleet_rpc"
+                    },
+                    {
+                        "id": "fleet_of_fortune",
+                        "name": "_fleet_of_fortune",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Fleet_of_Fortune.png",
+                        "length": 4,
+                        "description": "_fleet_of_fortune_description",
+                        "rpc": "_fleet_of_fortune_rpc"
+                    },
+                    {
+                        "id": "ghost_fleet",
+                        "name": "_ghost_fleet",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Battle_with_a_Ghost_Armada.webp",
+                        "length": 4,
+                        "description": "_ghost_fleet_description",
+                        "rpc": "_ghost_fleet_rpc"
+                    },
+                    {
+                        "id":"ashen_winds",
+                        "name":"_ashen_winds",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Duel_with_an_Ashen_Lord.webp",
+                        "length": 4,
+                        "description":"_ashen_winds_description",
+                        "rpc":"_ashen_winds_rpc"
+                    }
+                ]
+            },
+            {
+                "id": "raids",
+                "name": "_raids",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Raids_icon.webp",
+                "activities":[
+                    {
+                        "id": "fort_of_the_damned",
+                        "name": "_fort_of_the_damned",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Fort_of_the_Damned.jpg",
+                        "length": 4,
+                        "description": "_fort_of_the_damned_description",
+                        "rpc": "_fort_of_the_damned_rpc"
+                    },
+                    {
+                        "id":"sea_fort",
+                        "name":"_sea_fort",
+                        "image":"https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Raid_on_a_Sea_Fort.webp",
+                        "length": 3,
+                        "description":"_sea_fort_description",
+                        "rpc":"_sea_fort_rpc"
+                    },
+                    {
+                        "id": "sunken_shrine",
+                        "name": "_sunken_shrine",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/An_Adventure_to_a_Sunken_Shrine.webp",
+                        "length": 4,
+                        "description": "_sunken_shrine_description",
+                        "rpc": "_sunken_shrine_rpc"
+                    },
+                    {
+                        "id": "sunken_treasury",
+                        "name": "_sunken_treasury",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/A_Raid_on_a_Sunken_Treasury.webp",
+                        "length": 4,
+                        "description": "_sunken_treasury_description",
+                        "rpc": "_sunken_treasury_rpc"
+                    }
+                ]
+            },
+            {
+                "id": "emergent_encounters",
+                "name": "_emergent_encounters",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Emergent_Encounters_icon.webp",
+                "activities": [
+                    {
+                        "id": "skeleton_ship",
+                        "name": "_skeleton_ship",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Skeleton_Ship.jpeg",
+                        "length": 2,
+                        "description": "_skeleton_ship_description",
+                        "rpc": "_skeleton_ship_rpc"
+                    },
+                    {
+                        "id": "megalodon",
+                        "name": "_megalodon",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Megalodon.jpg",
+                        "length": 2,
+                        "description": "_megalodon_description",
+                        "rpc": "_megalodon_rpc"
+                    },
+                    {
+                        "id": "kraken",
+                        "name": "_kraken",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Kraken.jpg",
+                        "length": 2,
+                        "description": "_kraken_description",
+                        "rpc": "_kraken_rpc"
+                    }
+                ]
+            }
         ]
     },
     {
