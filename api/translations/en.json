@@ -315,6 +315,20 @@
     "_revenge_of_the_morningstar_rpc": "In a tall tale : The Revenge of the Morningstar",
     "_shores_of_gold_tall_tale": "The Shores of Gold",
     "_shores_of_gold_tall_tale_description": "Embark on a mission to find the shores of gold.",
-    "_tshores_of_gold_tall_tale_rpc": "In a tall tale : The Shores of Gold"
+    "_shores_of_gold_tall_tale_rpc": "In a tall tale : The Shores of Gold",
 
+    "_pirate_lord_hourglass": "Guardians of Fortune",
+    "_pirate_lord_hourglass_attack": "Attack",
+    "_pirate_lord_hourglass_attack_description": "Defeat the Servants of the Flame by diving into the sea",
+    "_pirate_lord_hourglass_attack_rpc": "In a Hourglass fight",
+    "_pirate_lord_hourglass_defense": "Defense",
+    "_pirate_lord_hourglass_defense_description": "Defend your treasures against the Servants of the Flame",
+    "_pirate_lord_hourglass_defense_rpc": "In a Hourglass fight",
+    "_flameheart_hourglass": "Servants of the Flame",
+    "_flameheart_hourglass_attack": "Attack",
+    "_flameheart_hourglass_attack_description": "Defeat the Guardians of Fortune by diving into the sea",
+    "_flameheart_hourglass_attack_rpc": "In a Hourglass fight",
+    "_flameheart_hourglass_defense": "Defense",
+    "_flameheart_hourglass_defense_description": "Defend your treasures against the Guardians of Fortune",
+    "_flameheart_hourglass_defense_rpc": "In a Hourglass fight"
 }

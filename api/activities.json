@@ -1036,5 +1036,67 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "pirate_lord_hourglass",
+        "name": "_pirate_lord_hourglass",
+        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/icons/pirate_lord_hourglass.png",
+        "background_image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/pirate-lord-hourglass.svg",
+        "categories": [
+            {
+                "id": "pirate_lord_hourglass",
+                "name": "_pirate_lord_hourglass",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Pirate_Lord_Hourglass_icon.png",
+                "activities": [
+                    {
+                        "id": "pirate_lord_hourglass_attack",
+                        "name": "_pirate_lord_hourglass_attack",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Defense_Pirate_Lord_Hourglass.webp",
+                        "length": 5,
+                        "description": "_pirate_lord_hourglass_attack_description",
+                        "rpc": "_pirate_lord_hourglass_attack_rpc"
+                    },
+                    {
+                        "id": "pirate_lord_hourglass_defense",
+                        "name": "_pirate_lord_hourglass_defense",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Defense_Pirate_Lord_Hourglass.webp",
+                        "length": 5,
+                        "description": "_pirate_lord_hourglass_defense_description",
+                        "rpc": "_pirate_lord_hourglass_defense_rpc"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "flameheart_hourglass",
+        "name": "_flameheart_hourglass",
+        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/icons/flameheart_hourglass.png",
+        "background_image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/flameheart-hourglass.svg",
+        "categories": [
+            {
+                "id": "flameheart_hourglass",
+                "name": "_flameheart_hourglass",
+                "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Flameheart_Hourglass_icon.png",
+                "activities": [
+                    {
+                        "id": "flameheart_hourglass_attack",
+                        "name": "_flameheart_hourglass_attack",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Defense_Flameheart_Hourglass.webp",
+                        "length": 5,
+                        "description": "_flameheart_hourglass_attack_description",
+                        "rpc": "_flameheart_hourglass_attack_rpc"
+                    },
+                    {
+                        "id": "flameheart_hourglass_defense",
+                        "name": "_flameheart_hourglass_defense",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Defense_Flameheart_Hourglass.webp",
+                        "length": 5,
+                        "description": "_flameheart_hourglass_defense_description",
+                        "rpc": "_flameheart_hourglass_defense_rpc"
+                    }
+                ]
+            }
+        ]
     }
 ]
