@@ -1,12 +1,14 @@
 import 'dart:convert';
 
 import 'package:http/http.dart';
+import 'package:sot_richpresence/config.dart';
 import 'package:sot_richpresence/models/activities/activity_company.dart';
 import 'package:sot_richpresence/models/translations/available_translation.dart';
 
 class ApiService {
   static Future<List<AvailableTranslation>> fetchAvailableTranslations() async {
-    final response = await sendGetRequest('https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/api/translations/available_translations.json');
+    final response = await sendGetRequest(
+        '${Config.apiLink}/translations/available_translations.json');
     if (response.statusCode == 200) {
       return AvailableTranslation.fromJsonList(response.body);
     } else {
@@ -14,8 +16,10 @@ class ApiService {
     }
   }
 
-  static Future<Map<String, dynamic>> fetchSpecificTranslation(String translation) async {
-    final response = await sendGetRequest('https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/api/translations/'+translation+'.json');
+  static Future<Map<String, dynamic>> fetchSpecificTranslation(
+      String translation) async {
+    final response = await sendGetRequest(
+        '${Config.apiLink}/translations/' + translation + '.json');
     if (response.statusCode == 200) {
       return jsonDecode(response.body);
     } else {
@@ -24,8 +28,7 @@ class ApiService {
   }
 
   static Future<List<ActivityCompany>> fetchActivityCategories() async {
-    final response =
-        await sendGetRequest('https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/api/activities.json');
+    final response = await sendGetRequest('${Config.apiLink}/activities.json');
     if (response.statusCode == 200) {
       return ActivityCompany.fromJsonList(response.body);
     } else {
