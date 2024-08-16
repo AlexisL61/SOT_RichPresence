@@ -77,21 +77,17 @@ class _HomePageState extends State<HomePage> {
   Widget _buildShipPanel() {
     DrivenShip? drivenShip = UserData().drivenShip;
     return SizedBox(
-      height:400,
+      height: 400,
       child: LargePanel(
           image: AssetImage("assets/png/choose-ship.jpg"),
-          child: Expanded(child:SizedBox(width: 400)),
+          child: Expanded(child: SizedBox(width: 400)),
           title: tr("_ship"),
           description: drivenShip == null
               ? tr("_no_ship_selected")
-              : tr("_${drivenShip.name}_name") +
-                  " - " +
-                  drivenShip.players.toString() +
-                  " joueurs",
+              : tr("_${drivenShip.name}_name") + " - " + " " + plural("_number_of_players", drivenShip.players),
           actionText: tr("_ship_select_button"),
           action: () async {
-            DrivenShip? drivenShip =
-                await Navigator.pushNamed(context, "/choose_ship") as DrivenShip?;
+            DrivenShip? drivenShip = await Navigator.pushNamed(context, "/choose_ship") as DrivenShip?;
             if (drivenShip != null) {
               controller.setDrivenShip(drivenShip);
               setState(() {});
@@ -103,23 +99,19 @@ class _HomePageState extends State<HomePage> {
   Widget _buildActivityPanel() {
     Activity? selectedActivity = UserData().activity;
     return SizedBox(
-      height:400,
-      child: LargePanel(
-        image: AssetImage("assets/png/choose-activity.jpg"),
-        child: Expanded(child:SizedBox(width: 400)),
-        title: tr("_activity"),
-        description: selectedActivity == null
-            ? tr("_no_activity_selected")
-            : onlineTr(selectedActivity.name),
-        actionText: tr("_activity_select_button"),
-        action: () async {
-          Activity? selectedActivity =
-              await Navigator.pushNamed(context, "/choose_activity_company")
-                  as Activity?;
-          if (selectedActivity != null) {
-            controller.setActivity(selectedActivity);
-            setState(() {});
-          }
-        }));
+        height: 400,
+        child: LargePanel(
+            image: AssetImage("assets/png/choose-activity.jpg"),
+            child: Expanded(child: SizedBox(width: 400)),
+            title: tr("_activity"),
+            description: selectedActivity == null ? tr("_no_activity_selected") : onlineTr(selectedActivity.name),
+            actionText: tr("_activity_select_button"),
+            action: () async {
+              Activity? selectedActivity = await Navigator.pushNamed(context, "/choose_activity_company") as Activity?;
+              if (selectedActivity != null) {
+                controller.setActivity(selectedActivity);
+                setState(() {});
+              }
+            }));
   }
 }
