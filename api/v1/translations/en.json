@@ -179,10 +179,13 @@
     "_a_battle_with_a_skeleton_fleet_for_merchant_alliance_rpc": "Fighting a skeleton fleet for Merchant Alliance",
     "_a_battle_with_the_burning_blades_armada_for_merchant_alliance_rpc": "Fighting the Burning Blade Armada for Merchant Alliance",
 
-    "_crew_chase": "Crew Chase",
+    "_reapers_bones_voyages": "Voyages",
     "_crew_chase_voyage": "Crew Chase",
     "_crew_chase_voyage_description": "Hunt down and defeat rival crews.",
     "_crew_chase_voyage_rpc": "Hunting rival crews",
+    "_burning_blade_tribute": "Burning blade tribute",
+    "_burning_blade_tribute_description": "Complete dark rituals to get ancient knowledge for Flameheart",
+    "_burning_blade_tribute_rpc": "Doing dark rituals for Flameheart",
 
     "_legend_of_the_veil": "Legend of the Veil",
     "_legend_of_the_veil_voyage": "Legend of the Veil",
@@ -230,6 +233,8 @@
     "_ashen_winds": "Ashen Winds",
     "_ashen_winds_description": "Defeat an Ashen Lord to claim their treasure and an Ashen Winds Skull!",
     "_ashen_winds_rpc": "Fighting an ashen lord",
+    "_burning_blade_description": "Defeat the burning blade to claim its treasure or pledge your allegiance to Flameheart.",
+    "_burning_blade_rpc": "Fighting the Burning Blade",
     "_raids": "Raids",
     "_fort_of_the_damned": "Fort of the Damned",
     "_fort_of_the_damned_description": "Defeat waves of Phantoms and Graymarrow to claim its Treasury Key and the plunder inside.",

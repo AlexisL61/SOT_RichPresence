@@ -568,8 +568,8 @@
         "background_image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/companies/reapers-bones.svg",
         "categories": [
             {
-                "id": "crew_chase",
-                "name": "_crew_chase",
+                "id": "reapers_bones_voyages",
+                "name": "_reaper_bones_voyages",
                 "icon": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/categories/Crew_Chase_icon.png",
                 "activities": [
                     {
@@ -579,6 +579,14 @@
                         "length": 5,
                         "description": "_crew_chase_voyage_description",
                         "rpc": "_crew_chase_voyage_rpc"
+                    },
+                    {
+                        "id": "burning_blade_tribute",
+                        "name": "_burning_blade_tribute",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Burning_Blade_Tribute.jpg",
+                        "length": 5,
+                        "description": "_burning_blade_tribute_description",
+                        "rpc": "_burning_blade_tribute_rpc"
                     }
                 ]
             }
@@ -774,6 +782,14 @@
                         "length": 4,
                         "description":"_ashen_winds_description",
                         "rpc":"_ashen_winds_rpc"
+                    },
+                    {
+                        "id": "burning_blade",
+                        "name": "_burning_blade",
+                        "image": "https://raw.githubusercontent.com/AlexisL61/SOT_RichPresence/main/assets/activities/Burning_Blade.jpg",
+                        "length": 4,
+                        "description": "_burning_blade_description",
+                        "rpc": "_burning_blade_rpc"
                     }
                 ]
             },
