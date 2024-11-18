@@ -1,3 +1,8 @@
+# ARCHIVE ALERT
+
+You should get the new app which includes Sea of Thieves but also Helldivers 2 and The Finals ! 
+https://github.com/AlexisL61/RPC_Express
+
 # Sot Rich Presence
 
 Sot Rich Presence is an open-source application designed to enhance your Discord experience by displaying rich presence information about your activity in the game Sea of Thieves. With this application, you can choose specific in-game activities and the type of ship you are using, which will then be shown on your Discord profile.
